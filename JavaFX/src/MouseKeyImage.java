@@ -13,7 +13,7 @@ public class MouseKeyImage {
     int xpos = 120, ypos = 120;
 
     void go(){
-        JFrame frame = new JFrame("Image Viewer");
+        JFrame frame = new JFrame("Hello Image");
         frame.setSize(300, 300);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(null);
@@ -56,7 +56,7 @@ public class MouseKeyImage {
                 int x = e.getX()-8;
                 int y = e.getY()-31;
 
-                System.out.println(x +" "+ y);
+                System.out.println(x +" " + y);
 
                 img1.setBounds(x, y, 50, 50);
             }
@@ -80,6 +80,6 @@ public class MouseKeyImage {
     }
 
     public static void main(String[] args) {
-        new MoveImagebyKey().go();
+        new MouseKeyImage().go();
     }
 }
