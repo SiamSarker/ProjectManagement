@@ -14,18 +14,19 @@ public class ImageAnimation {
 
 
         JLabel img1 = readImage("star.png", 50, 50);
-        img1.setBounds(250, 30, 50, 50);
+        //img1.setBounds(250, 30, 50, 50);
         frame.add(img1);
+
 
         frame.setVisible(true);
 
         int xpos = 235;
-        int ypos = 0;
-        for(int i = 0; i < 40; i++){
+        int ypos = 235;
+        for(int i = 0; i < 30; i++){
             try {
                 Thread.sleep(100);
-                xpos -= 5;
-                ypos += 5;
+                xpos -= 10;
+                ypos -= 10;
                 img1.setBounds(xpos, ypos, 50, 50);
             } catch (InterruptedException e) {
                 e.printStackTrace();
