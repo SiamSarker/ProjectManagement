@@ -14,6 +14,7 @@ class Read
             {
                 sum += Double.parseDouble(rd.readLine());
             }
+            System.out.println(filename+" "+sum);
             rd.close();
         }
         long t2 = System.currentTimeMillis();
