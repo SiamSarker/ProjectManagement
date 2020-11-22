@@ -59,6 +59,43 @@ class GUI extends JFrame implements ActionListener {
     // all my panels - mainpanel holds left/right/bottom(keyboard)
     public static JPanel mainPanel, leftPanel, rightPanel, bottomPanel, belowPanel;
 
+    static class Home extends JFrame implements ActionListener{
+        public Home(){
+            super("Hang-man Home");
+            setSize(GUI.WIDTH,GUI.HEIGHT);
+            setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            mainPanel = new JPanel();
+            mainPanel.setLayout(new GridLayout(3,0));
+
+            JButton homePlay = new JButton(SHOW_REPLAY);
+            homePlay.setSize(40,40);
+//            homePlay.setActionCommand(SHOW_REPLAY);
+//            homePlay.addActionListener((ActionListener) this);
+//            homePlay.setActionCommand(SHOW_REPLAY);
+//            homePlay.addActionListener(this);
+
+            mainPanel.add(homePlay, CENTER_ALIGNMENT);
+
+
+            add(mainPanel);
+        }
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            if (e.getActionCommand().equals(SHOW_REPLAY)) {
+
+                numBodyParts = 0;
+                numGuesses = "";
+                bottomPanel.setVisible(true);
+                //state = 1;
+                play();
+                repaint();
+
+            }
+
+        }
+    }
+
 
     public GUI() {
         // pass title to super class
@@ -100,7 +137,7 @@ class GUI extends JFrame implements ActionListener {
         add(belowPanel, BorderLayout.AFTER_LAST_LINE);
 
         // set visibility to false until game is over
-        belowPanel.setVisible(true);
+        //belowPanel.setVisible(true);
 
         // create menu bar
         //createMenuBar();                                   //  I'll  not use the menuBar, instant a home GUI
@@ -282,7 +319,7 @@ class GUI extends JFrame implements ActionListener {
     }
 
     // generate a random word and return via char array
-    public String getword() {
+    public static String getword() {
         words = textFile();
 
         int n = words.length;
@@ -317,7 +354,7 @@ class GUI extends JFrame implements ActionListener {
 
     // method reads from a file and writes to arraylist which is converted back
     // to an array
-    public String[] textFile() {
+    public static String[] textFile() {
         // create a bufferedReader
         BufferedReader reader = null;
         // create a list array and store the values from the text file
@@ -421,7 +458,7 @@ class GUI extends JFrame implements ActionListener {
     }
 
     // method generates the '_' on the guesses array so it's display to the user
-    private void play() {
+    private static void play() {
 
         // store random word
         phrase = getword();
@@ -439,9 +476,14 @@ class GUI extends JFrame implements ActionListener {
 
     public static void main(String[] args) throws IOException {
 
+
+
+        // hangman.write();
         GUI hangman = new GUI();
-       // hangman.write();
         hangman.setVisible(true);
+
+        Home home = new Home();
+        home.setVisible(true);
 
     }
 }
