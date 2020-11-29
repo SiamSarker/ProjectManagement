@@ -2,107 +2,46 @@ import java.awt.*;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
+import java.awt.image.BufferedImage;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Random;
-import java.util.Scanner;
 
+import javax.imageio.ImageIO;
 import javax.swing.*;
 
 ;
 
 @SuppressWarnings("serial")
 class GUI extends JFrame implements ActionListener {
-    public static final String FILE = "inpu/dictionary.txt";
-    // Jframe height, weight
+    public static final String FILE = "input/dictionary.txt";
     private static final int WIDTH = 600;
     private static final int HEIGHT = 600;
-    // File menu
     private static final String FILE_START = "Play";
     private static final String FILE_STOP = "Exit";
     public static final String SHOW_REPLAY = "Play Again?";
-    // changes the state of the file
     private int state = 0;
-    // Random genator for word array
-    public Random rGen = new Random();
-    // Char array that houses the random phrases that was converted from the
-    // word array
     private static char[] randPhrase;
-    // word aray that houses the 20 words from the file
     private static String[] words;
-    // Char array that houses the user guesses
     private static char[] guesses;
-    // counts the number of hangman body parts
     public static int numBodyParts = 0;
-    // holds the letters that the user guesses
     private static String numGuesses = "";
-    // holds the random word that the word array generates to prevent multiple
-    // calls
     public static String phrase;
 
     public static String text;
-    // all my panels - mainpanel holds left/right/bottom(keyboard)
     public static JPanel mainPanel, leftPanel, rightPanel, bottomPanel, belowPanel;
     public static JLabel label;
     public static JPasswordField textField;
 
-
-
-    //    static class Home extends JFrame implements ActionListener{
-//        public Home(){
-//            super("Hang-man Home");
-//            setSize(GUI.WIDTH,GUI.HEIGHT);
-//            setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//            mainPanel = new JPanel();
-//            mainPanel.setLayout(new GridLayout(3,0));
-//
-//            homePlay.setSize(40,40);
-////            homePlay.setActionCommand(SHOW_REPLAY);
-////            homePlay.addActionListener((ActionListener) this);
-////            homePlay.setActionCommand(SHOW_REPLAY);
-////            homePlay.addActionListener(this);
-//
-//            mainPanel.add(homePlay, CENTER_ALIGNMENT);
-//
-//            JButton homePlay = new JButton(SHOW_REPLAY);
-//
-//            add(mainPanel);
-//        }
-//
-//        @Override
-//        public void actionPerformed(ActionEvent e) {
-//            if (e.getActionCommand().equals(SHOW_REPLAY)) {
-//
-//                numBodyParts = 0;
-//                numGuesses = "";
-//                bottomPanel.setVisible(true);
-//                //state = 1;
-//                play();
-//                repaint();
-//
-//            }
-//
-//        }
-//    }
     public GUI() throws IOException {
         super("Hang-Man");
-        // set size of the jframe
-        // pass title to super class
         setSize(WIDTH, HEIGHT);
-        // populate word array
-
 
         words = textFile();
 
-
-        // close Jframe on exit
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        // main panel houses three panels - left, right and bottom(keyboard).
         mainPanel = new JPanel();
         mainPanel.setLayout(new GridLayout(3,0));
         mainPanel.setBackground(Color.WHITE);
@@ -112,14 +51,12 @@ class GUI extends JFrame implements ActionListener {
         leftPanel.setBackground(Color.WHITE);
         rightPanel.setBackground(Color.WHITE);
 
-//        rightPanel.setLayout(new BorderLayout(EAST));
-        // add the left/right panel
-        mainPanel.add(leftPanel, BorderLayout.EAST);
+        mainPanel.add(leftPanel);
         mainPanel.add(rightPanel);
         bottomPanel = new JPanel();
         bottomPanel.setLayout(new GridLayout(4, 4));
         bottomPanel.setBackground(Color.GRAY);
-        // add the bottom panel which contains Jbuttons
+
         mainPanel.add(bottomPanel, BorderLayout.SOUTH);
 
         belowPanel = new JPanel();
@@ -127,24 +64,17 @@ class GUI extends JFrame implements ActionListener {
 
         add(mainPanel);
         add(belowPanel, BorderLayout.AFTER_LAST_LINE);
-        // add last panel which houses replay/exit button
 
-        // set visibility to false until game is over
-        //belowPanel.setVisible(false);
 
-        // create menu bar
-        createMenuBar(leftPanel);                                   //  I'll  not use the menuBar, instant a home GUI
-        // create keyboard buttons
+        createPlayButton(leftPanel);
+
         createButtons(bottomPanel);
-        // create replay/exit buttons
+
         replayButtons(belowPanel);
 
 
-        // add mouselistener
-
     }
 
-    // method creates two jbutton for replay/exit and adds actionlisteners
     public void replayButtons(JPanel belowPanel) {
         JButton playAgain = new JButton(SHOW_REPLAY);
         playAgain.setSize(100, 100);
@@ -158,8 +88,7 @@ class GUI extends JFrame implements ActionListener {
         belowPanel.add(exit);
     }
 
-    // method creates an array of jbuttons with actionlisteners to use as a
-    // keyboard
+
     public void createButtons(JPanel bottomPanel) {
 
         JButton[] buttons = new JButton[26];
@@ -178,49 +107,24 @@ class GUI extends JFrame implements ActionListener {
 
     }
 
-    // method creates menu and menuitems
-    public void createMenuBar(JPanel leftPanel) throws IOException {
-//        JMenuBar menuBar = new JMenuBar();
-//        setJMenuBar(menuBar);
-
+    public void createPlayButton(JPanel leftPanel) throws IOException {
 
         label = new JLabel("Player 1 word input: ");
-        //label.setSize(200,200);
+
         textField  = new JPasswordField(10);
         textField.setEchoChar('*');
-        //textField.setSize(200,200);
-
-
-
-
 
         System.out.println(text);
-        JButton btn  =  new JButton(FILE_START);
-        //btn.setSize(200, 200);
-        btn.setActionCommand(FILE_START);
-        //btn.setAction((Action) this);
-        btn.addActionListener(this);
+        JButton play  =  new JButton(FILE_START);
+        play.setActionCommand(FILE_START);
+        play.addActionListener(this);
+
         leftPanel.add(label);
         leftPanel.add(textField);
-        leftPanel.add(btn);
-
-
-
-        // create file menu
-        //JMenu fileMenu = new JMenu("File");
-        //menuBar.add(fileMenu);
-
-        // add menu items
-//        createMenuItem(fileMenu, FILE_START);
-//        createMenuItem(fileMenu, FILE_STOP);
+        leftPanel.add(play);
 
     }
-    //method creates menu items with action listeners
-    public void createMenuItem(JMenu menu, String itemName) {
-        JMenuItem menuItem = new JMenuItem(itemName);
-        menuItem.addActionListener(this);
-        menu.add(menuItem);
-    }
+
 
     public void paint(Graphics g) {
         super.paint(g);
@@ -245,108 +149,101 @@ class GUI extends JFrame implements ActionListener {
             g.drawString("GUESSES", 300, 300);
             g.drawString(numGuesses, 300, 350);
             System.out.println(randPhrase);
-            // if user misses a letter - display body parts
 
-
-            //rightPanel.setVisible(false);
-            hangman(g);
+            try {
+                hangman(g);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
 
         }
     }
 
 
 
-    private void hangman(Graphics g) {
+    private void hangman(Graphics g) throws IOException {
 
         if (numBodyParts >= 1) {
 
-            // draw face
             g.setColor(Color.YELLOW);
-            g.fillOval(35, 120, 70, 60);
+            g.fillOval(35, 140, 70, 60);
             // hat
             g.setColor(Color.RED);
 
-            g.fillRect(48, 90, 48, 30);
-            g.fillRect(30, 120, 80, 15);
+            g.fillRect(48, 120, 48, 30);
+            g.fillRect(30, 140, 80, 15);
 
             // draw eyes
             g.setColor(Color.GREEN);
-            g.fillOval(55, 140, 10, 10);
-            g.fillOval(75, 140, 10, 10);
+            g.fillOval(55, 160, 10, 10);
+            g.fillOval(75, 160, 10, 10);
 
             // smile
             g.setColor(Color.RED);
-            g.drawArc(50, 155, 40, 10, -10, -180);
+            g.drawArc(50, 175, 40, 10, -10, -180);
+
             if (numBodyParts >= 2) {
                 // body
                 g.setColor(Color.GREEN);
-                g.fillRect(60, 180, 20, 80);
+                g.fillRect(60, 200, 20, 80);
             }
 
             if (numBodyParts >= 3) {
                 // left arm
                 g.setColor(Color.GREEN);
-                g.fillRect(25, 200, 45, 15);
+                g.fillRect(25, 220, 45, 15);
                 g.setColor(Color.YELLOW);
-                g.fillRect(15, 200, 10, 15);
+                g.fillRect(15, 220, 10, 15);
             }
             if (numBodyParts >= 4) {
                 // right arm
                 g.setColor(Color.GREEN);
-                g.fillRect(80, 200, 45, 15);
+                g.fillRect(80, 220, 45, 15);
                 g.setColor(Color.YELLOW);
-                g.fillRect(120, 200, 10, 15);
+                g.fillRect(120, 220, 10, 15);
             }
             if (numBodyParts >= 5) {
                 // left foot
                 g.setColor(Color.BLACK);
-                g.fillRect(35, 260, 30, 15);
+                g.fillRect(35, 280, 30, 15);
             }
             if (numBodyParts >= 6) {
                 // right foot
                 g.setColor(Color.BLACK);
-                g.fillRect(70, 260, 30, 15);
+                g.fillRect(70, 280, 30, 15);
             }
         }
-
     }
+
 
     private void gameMessages(Graphics g) {
 
         if (winner() && numBodyParts < 6) {
-            g.drawString("You Won!!", 50, 80);
+            g.drawString("You Won!!", 50, 100);
             bottomPanel.setVisible(false);
             belowPanel.setVisible(true);
-            System.out.println("i hit here");
+            System.out.println("gotcha");
 
-            //draw lost message and enable belowpanel
         }
 
         if (!winner() && numBodyParts < 6) {
-            // draw welcome message
-            g.drawString("Let's Play Hang Man!!!", 25, 80);
-            //draw winner message and enable belowpanel
-        }  if (numBodyParts >= 6) {                                       //    BUG ALERT
-            g.drawString("You Lost!!", 25, 80);                     //    BUG ALERT
+            g.drawString("Let's Play Hang Man!!!", 25, 100);
+        }  if (numBodyParts >= 6) {
+            g.drawString("You Lost!!", 25, 100);
             bottomPanel.setVisible(false);
             belowPanel.setVisible(true);
-
         }
 
     }
 
-    // generate a random word and return via char array
     public static String getword() {
         words = textFile();
 
         int n = words.length;
-        //int r = rGen.nextInt(n);                                  // fixed
-        String word = words[n-1];                                   // words[r]
-
+        String word = words[n-1];
         return word;
     }
 
-    // method determines whether guesses array match the randphrase array
     public boolean winner() {
         if (Arrays.equals(guesses, randPhrase)) {
             return true;
@@ -355,26 +252,16 @@ class GUI extends JFrame implements ActionListener {
         }
     }
 
-
-
-
-    public void write() throws IOException {                                          //  my creation write() use later in GUI input
+    public void write() throws IOException {
         BufferedWriter writer = new BufferedWriter(new FileWriter(FILE));
-        //Scanner sc = new Scanner(System.in);
-        //String word = text;
         writer.write(text);
         writer.close();
-
     }
 
 
-
-    // method reads from a file and writes to arraylist which is converted back
-    // to an array
     public static String[] textFile() {
-        // create a bufferedReader
         BufferedReader reader = null;
-        // create a list array and store the values from the text file
+
         List<String> wordList = new ArrayList<String>();
         try {
             reader = new BufferedReader(new FileReader(FILE));
@@ -383,7 +270,6 @@ class GUI extends JFrame implements ActionListener {
             while ((s = reader.readLine()) != null) {
 
                 wordList.add(s);
-
             }
 
         } catch (IOException e) {
@@ -392,16 +278,13 @@ class GUI extends JFrame implements ActionListener {
             System.exit(-1);
         } finally {
             try {
-                // close the file
                 reader.close();
             } catch (IOException e) {
                 System.out.println(e.getMessage());
                 System.exit(-1);
             }
         }
-        // convert from arraylist to array and return
         return wordList.toArray(new String[wordList.size()]);
-
     }
 
     public void actionPerformed(ActionEvent e) {
@@ -409,8 +292,7 @@ class GUI extends JFrame implements ActionListener {
         String command = e.getActionCommand();
 
         if (command.equals(FILE_START)) {
-            // once the user has pressed play, change state and call to play
-            // method
+
             text = textField.getText().toLowerCase();
             try {
                 write();
@@ -420,25 +302,19 @@ class GUI extends JFrame implements ActionListener {
             leftPanel.setVisible(false);
             state = 1;
             play();
-
             repaint();
 
         }
 
         else if (command.length() == 1 && state == 1) {
-            // pass action event to letters if the user has pressed play and the
-            // event is generated
-            // by the Jbutton array (length of the string is one)
             letters(command);
         }
-        //reset status and replay game
         else if (command.equals(SHOW_REPLAY)) {
 
             numBodyParts = 0;
             numGuesses = "";
             bottomPanel.setVisible(true);
             leftPanel.setVisible(true);
-
 
             state = 1;
             play();
@@ -448,12 +324,8 @@ class GUI extends JFrame implements ActionListener {
             state = 2;
             System.exit(-1);
         }
-
-        // repaint();
     }
 
-    // method receives actionevent from JButtons and compares it to randphrase
-    // array
     public void letters(String command) {
 
         System.out.println(command);
@@ -466,34 +338,31 @@ class GUI extends JFrame implements ActionListener {
                 }
 
             }
-            // if letter does not match - bodycounter increases
         } else if (!phrase.contains(command.toLowerCase())) {
             JOptionPane.showMessageDialog(null, "Sorry " + command
                     + " is not part of the word");
             numBodyParts++;
         }
 
-        // concatenation user guesses
         numGuesses += command;
         if (numBodyParts < 6 && !winner()) {
             numGuesses += ", ";
         }
-        else if (numBodyParts >= 6){                          //  my code
+        else if (numBodyParts >= 6){
             numGuesses += " end game!";
         }
         repaint();
     }
 
-    // method generates the '_' on the guesses array so it's display to the user
     private static void play() {
 
-        // store random word
+
         phrase = getword();
-        // convert random word to char array
+
         randPhrase = phrase.toCharArray();
-        //create an array to hold and display user input
+
         guesses = new char[randPhrase.length];
-        //populate the array with dashes first
+
         for (int i = 0; i < guesses.length; i++) {
             guesses[i] = '_';
         }
@@ -503,9 +372,6 @@ class GUI extends JFrame implements ActionListener {
 
     public static void main(String[] args) throws IOException {
 
-
-
-        // hangman.write();
         GUI hangman = new GUI();
         hangman.setVisible(true);
 
