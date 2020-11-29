@@ -1,9 +1,4 @@
-import java.awt.BorderLayout;
-import java.awt.Color;
-
-import java.awt.Font;
-import java.awt.Graphics;
-import java.awt.GridLayout;
+import java.awt.*;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -16,21 +11,13 @@ import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
-import javax.swing.JButton;
-
-import javax.swing.JFrame;
-
-import javax.swing.JMenu;
-import javax.swing.JMenuBar;
-import javax.swing.JMenuItem;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
+import javax.swing.*;
 
 ;
 
 @SuppressWarnings("serial")
 class GUI extends JFrame implements ActionListener {
-    public static final String FILE = "input/dictionary.txt";
+    public static final String FILE = "inpu/dictionary.txt";
     // Jframe height, weight
     private static final int WIDTH = 600;
     private static final int HEIGHT = 600;
@@ -56,54 +43,57 @@ class GUI extends JFrame implements ActionListener {
     // holds the random word that the word array generates to prevent multiple
     // calls
     public static String phrase;
+
+    public static String text;
     // all my panels - mainpanel holds left/right/bottom(keyboard)
     public static JPanel mainPanel, leftPanel, rightPanel, bottomPanel, belowPanel;
-
-    static class Home extends JFrame implements ActionListener{
-        public Home(){
-            super("Hang-man Home");
-            setSize(GUI.WIDTH,GUI.HEIGHT);
-            setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-            mainPanel = new JPanel();
-            mainPanel.setLayout(new GridLayout(3,0));
-
-            JButton homePlay = new JButton(SHOW_REPLAY);
-            homePlay.setSize(40,40);
-//            homePlay.setActionCommand(SHOW_REPLAY);
-//            homePlay.addActionListener((ActionListener) this);
-//            homePlay.setActionCommand(SHOW_REPLAY);
-//            homePlay.addActionListener(this);
-
-            mainPanel.add(homePlay, CENTER_ALIGNMENT);
+    public static JLabel label;
+    public static JPasswordField textField;
 
 
-            add(mainPanel);
-        }
 
-        @Override
-        public void actionPerformed(ActionEvent e) {
-            if (e.getActionCommand().equals(SHOW_REPLAY)) {
-
-                numBodyParts = 0;
-                numGuesses = "";
-                bottomPanel.setVisible(true);
-                //state = 1;
-                play();
-                repaint();
-
-            }
-
-        }
-    }
-
-
-    public GUI() {
-        // pass title to super class
+    //    static class Home extends JFrame implements ActionListener{
+//        public Home(){
+//            super("Hang-man Home");
+//            setSize(GUI.WIDTH,GUI.HEIGHT);
+//            setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//            mainPanel = new JPanel();
+//            mainPanel.setLayout(new GridLayout(3,0));
+//
+//            homePlay.setSize(40,40);
+////            homePlay.setActionCommand(SHOW_REPLAY);
+////            homePlay.addActionListener((ActionListener) this);
+////            homePlay.setActionCommand(SHOW_REPLAY);
+////            homePlay.addActionListener(this);
+//
+//            mainPanel.add(homePlay, CENTER_ALIGNMENT);
+//
+//            JButton homePlay = new JButton(SHOW_REPLAY);
+//
+//            add(mainPanel);
+//        }
+//
+//        @Override
+//        public void actionPerformed(ActionEvent e) {
+//            if (e.getActionCommand().equals(SHOW_REPLAY)) {
+//
+//                numBodyParts = 0;
+//                numGuesses = "";
+//                bottomPanel.setVisible(true);
+//                //state = 1;
+//                play();
+//                repaint();
+//
+//            }
+//
+//        }
+//    }
+    public GUI() throws IOException {
         super("Hang-Man");
         // set size of the jframe
+        // pass title to super class
         setSize(WIDTH, HEIGHT);
         // populate word array
-
 
 
         words = textFile();
@@ -121,8 +111,10 @@ class GUI extends JFrame implements ActionListener {
         leftPanel = new JPanel();
         leftPanel.setBackground(Color.WHITE);
         rightPanel.setBackground(Color.WHITE);
+
+//        rightPanel.setLayout(new BorderLayout(EAST));
         // add the left/right panel
-        mainPanel.add(leftPanel);
+        mainPanel.add(leftPanel, BorderLayout.EAST);
         mainPanel.add(rightPanel);
         bottomPanel = new JPanel();
         bottomPanel.setLayout(new GridLayout(4, 4));
@@ -132,15 +124,16 @@ class GUI extends JFrame implements ActionListener {
 
         belowPanel = new JPanel();
         belowPanel.setBackground(Color.GREEN);
-        // add last panel which houses replay/exit button
+
         add(mainPanel);
         add(belowPanel, BorderLayout.AFTER_LAST_LINE);
+        // add last panel which houses replay/exit button
 
         // set visibility to false until game is over
-        //belowPanel.setVisible(true);
+        //belowPanel.setVisible(false);
 
         // create menu bar
-        //createMenuBar();                                   //  I'll  not use the menuBar, instant a home GUI
+        createMenuBar(leftPanel);                                   //  I'll  not use the menuBar, instant a home GUI
         // create keyboard buttons
         createButtons(bottomPanel);
         // create replay/exit buttons
@@ -154,13 +147,13 @@ class GUI extends JFrame implements ActionListener {
     // method creates two jbutton for replay/exit and adds actionlisteners
     public void replayButtons(JPanel belowPanel) {
         JButton playAgain = new JButton(SHOW_REPLAY);
-        playAgain.setSize(80, 80);
+        playAgain.setSize(100, 100);
         playAgain.setActionCommand(SHOW_REPLAY);
         playAgain.addActionListener(this);
         JButton exit = new JButton(FILE_STOP);
         exit.setActionCommand(FILE_STOP);
         exit.addActionListener(this);
-        exit.setSize(80, 80);
+        exit.setSize(100, 100);
         belowPanel.add(playAgain);
         belowPanel.add(exit);
     }
@@ -186,17 +179,40 @@ class GUI extends JFrame implements ActionListener {
     }
 
     // method creates menu and menuitems
-    public void createMenuBar() {
-        JMenuBar menuBar = new JMenuBar();
-        setJMenuBar(menuBar);
+    public void createMenuBar(JPanel leftPanel) throws IOException {
+//        JMenuBar menuBar = new JMenuBar();
+//        setJMenuBar(menuBar);
+
+
+        label = new JLabel("Player 1 word input: ");
+        //label.setSize(200,200);
+        textField  = new JPasswordField(10);
+        textField.setEchoChar('*');
+        //textField.setSize(200,200);
+
+
+
+
+
+        System.out.println(text);
+        JButton btn  =  new JButton(FILE_START);
+        //btn.setSize(200, 200);
+        btn.setActionCommand(FILE_START);
+        //btn.setAction((Action) this);
+        btn.addActionListener(this);
+        leftPanel.add(label);
+        leftPanel.add(textField);
+        leftPanel.add(btn);
+
+
 
         // create file menu
-        JMenu fileMenu = new JMenu("File");
-        menuBar.add(fileMenu);
+        //JMenu fileMenu = new JMenu("File");
+        //menuBar.add(fileMenu);
 
         // add menu items
-        createMenuItem(fileMenu, FILE_START);
-        createMenuItem(fileMenu, FILE_STOP);
+//        createMenuItem(fileMenu, FILE_START);
+//        createMenuItem(fileMenu, FILE_STOP);
 
     }
     //method creates menu items with action listeners
@@ -232,6 +248,7 @@ class GUI extends JFrame implements ActionListener {
             // if user misses a letter - display body parts
 
 
+            //rightPanel.setVisible(false);
             hangman(g);
 
         }
@@ -343,9 +360,9 @@ class GUI extends JFrame implements ActionListener {
 
     public void write() throws IOException {                                          //  my creation write() use later in GUI input
         BufferedWriter writer = new BufferedWriter(new FileWriter(FILE));
-        Scanner sc = new Scanner(System.in);
-        String word = sc.next().toLowerCase();
-        writer.write(word);
+        //Scanner sc = new Scanner(System.in);
+        //String word = text;
+        writer.write(text);
         writer.close();
 
     }
@@ -394,6 +411,13 @@ class GUI extends JFrame implements ActionListener {
         if (command.equals(FILE_START)) {
             // once the user has pressed play, change state and call to play
             // method
+            text = textField.getText().toLowerCase();
+            try {
+                write();
+            } catch (IOException ioException) {
+                ioException.printStackTrace();
+            }
+            leftPanel.setVisible(false);
             state = 1;
             play();
 
@@ -413,6 +437,9 @@ class GUI extends JFrame implements ActionListener {
             numBodyParts = 0;
             numGuesses = "";
             bottomPanel.setVisible(true);
+            leftPanel.setVisible(true);
+
+
             state = 1;
             play();
             repaint();
@@ -481,9 +508,6 @@ class GUI extends JFrame implements ActionListener {
         // hangman.write();
         GUI hangman = new GUI();
         hangman.setVisible(true);
-
-        Home home = new Home();
-        home.setVisible(true);
 
     }
 }
