@@ -1,10 +1,12 @@
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import javax.imageio.ImageIO;
 import javax.swing.*;
 
 class GUI extends JFrame implements ActionListener {
@@ -70,7 +72,6 @@ class GUI extends JFrame implements ActionListener {
         AlphabetButtons(lowerPanel);
 
         newPlayButtons(belowPanel);
-
     }
 
 
@@ -160,58 +161,147 @@ class GUI extends JFrame implements ActionListener {
     }
 
 
+    Image readImage(String imagpath, int width, int height)
+    {
+        try {
+            BufferedImage image = ImageIO.read(new File(imagpath));
+
+            Image imageScaled = image.getScaledInstance(width, height, Image.SCALE_SMOOTH);
+
+            return imageScaled;
+
+        }
+        catch (IOException e)
+        {
+            e.printStackTrace();
+        }
+
+        return null;
+    }
+
+
     private void hangman(Graphics g) throws IOException {
 
-        if (BodyPart >= 1) {
+        int w = 200;
+        int h = 250;
 
-            g.setColor(Color.BLACK);
-            g.fillOval(35, 140, 70, 60);
-            // hat
-            g.setColor(Color.GRAY);
-            g.fillRect(48, 120, 48, 30);
-            g.fillRect(30, 140, 80, 15);
+        if (BodyPart == 1) {
 
-            // draw eyes
-            g.setColor(Color.WHITE);
-            g.fillOval(55, 160, 10, 10);
-            g.fillOval(75, 160, 10, 10);
 
-            // smile
-            g.setColor(Color.WHITE);
-            g.drawArc(50, 175, 40, 10, -10, -180);
+            Image img = readImage("1.png", w, h);
+            g.drawImage(img,40,120, w, h,this);
 
-            if (BodyPart >= 2) {
-                // body
-                g.setColor(Color.BLACK);
-                g.fillRect(60, 200, 20, 80);
-            }
 
-            if (BodyPart >= 3) {
-                // left arm
-                g.setColor(Color.BLACK);
-                g.fillRect(25, 220, 45, 15);
-                g.setColor(Color.BLACK);
-                g.fillRect(15, 220, 10, 15);
-            }
-            if (BodyPart >= 4) {
-                // right arm
-                g.setColor(Color.BLACK);
-                g.fillRect(80, 220, 45, 15);
-                g.setColor(Color.BLACK);
-                g.fillRect(120, 220, 10, 15);
-            }
-            if (BodyPart >= 5) {
-                // left foot
-                g.setColor(Color.BLACK);
-                g.fillRect(35, 280, 30, 15);
-            }
-            if (BodyPart >= 6) {
-                // right foot
-                g.setColor(Color.BLACK);
-                g.fillRect(70, 280, 30, 15);
-            }
+//            JLabel img1 = readImage("1.png", 200,200);
+//
+//            middlePanel.setLayout(null);
+//            middlePanel.add(img1);
+//            img1.setBounds(80,80,200,200);
+
+//            BufferedImage image = ImageIO.read(new File("1.png"));
+//
+//            Image imageScaled = image.getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+//
+//            JLabel imageLabel = new JLabel(new ImageIcon(imageScaled));
+//
+//            mainPanel.setLayout(null);
+//            mainPanel.add(imageLabel);
+//            imageLabel.setBounds(80,80,200,200);
+
+//            g.setColor(Color.BLACK);
+//            g.fillOval(35, 140, 70, 60);
+//            // hat
+//            g.setColor(Color.GRAY);
+//            g.fillRect(48, 120, 48, 30);
+//            g.fillRect(30, 140, 80, 15);
+//
+//            // draw eyes
+//            g.setColor(Color.WHITE);
+//            g.fillOval(55, 160, 10, 10);
+//            g.fillOval(75, 160, 10, 10);
+//
+//            // smile
+//            g.setColor(Color.WHITE);
+//            g.drawArc(50, 175, 40, 10, -10, -180);
         }
-    }
+
+            if (BodyPart == 2) {
+
+                Image img = readImage("2.png", w, h);
+                g.drawImage(img,40,120, w, h,this);
+
+
+//                Image img2 = readImage("2.png", 400,400);
+
+                //frame.add(img1);
+
+
+//                BufferedImage image2 = ImageIO.read(new File("2.png"));
+//
+//                Image imageScaled2 = image2.getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+//
+//                JLabel imageLabel2 = new JLabel(new ImageIcon(imageScaled2));
+
+                //middlePanel.setLayout(null);
+
+
+//                mainPanel.add(img2);
+//                img2.setBounds(40,80,400,400);
+
+                //imageLabel2.setBounds(80,80,200,200);
+
+                // body
+//                g.setColor(Color.BLACK);
+//                g.fillRect(60, 200, 20, 80);
+            }
+
+            if (BodyPart == 3) {
+
+                Image img = readImage("3.png", w, h);
+                g.drawImage(img,40,120, w, h,this);
+//
+//                BufferedImage image = ImageIO.read(new File("1.png"));
+////
+//            Image imageScaled = image.getScaledInstance(200, 200, Image.SCALE_SMOOTH);
+//
+//            JLabel imageLabel = new JLabel(new ImageIcon(imageScaled));
+//
+//            mainPanel.setLayout(null);
+//            mainPanel.add(imageLabel);
+//            imageLabel.setBounds(80,80,200,200);
+
+                // left arm
+//                g.setColor(Color.BLACK);
+//                g.fillRect(25, 220, 45, 15);
+//                g.setColor(Color.BLACK);
+//                g.fillRect(15, 220, 10, 15);
+            }
+            if (BodyPart == 4) {
+                Image img = readImage("4.png", w, h);
+                g.drawImage(img,40,120, w, h,this);
+                // right arm
+//                g.setColor(Color.BLACK);
+//                g.fillRect(80, 220, 45, 15);
+//                g.setColor(Color.BLACK);
+//                g.fillRect(120, 220, 10, 15);
+            }
+            if (BodyPart == 5) {
+                Image img = readImage("5.png", w, h);
+                g.drawImage(img,40,120, w, h,this);
+                // left foot
+//                g.setColor(Color.BLACK);
+//                g.fillRect(35, 280, 30, 15);
+            }
+            if (BodyPart == 6) {
+                Image img = readImage("6.png", w, h);
+                g.drawImage(img,40,120, w, h,this);
+                // right foot
+//                g.setColor(Color.BLACK);
+//                g.fillRect(70, 280, 30, 15);
+            }
+            Message(g);
+        }
+
 
 
     private void Message(Graphics g) {
@@ -220,13 +310,13 @@ class GUI extends JFrame implements ActionListener {
             g.drawString("Woohoo! You Won", 50, 100);
             lowerPanel.setVisible(false);
             belowPanel.setVisible(true);
-            System.out.println("gotcha");
 
         }
 
         if (!WinCheck() && BodyPart < 6) {
             g.drawString("Start Playing Hang-Man", 25, 100);
-        }  if (BodyPart >= 6) {
+        }
+        if (BodyPart >= 6) {
             g.drawString("You Lost!!", 25, 100);
             lowerPanel.setVisible(false);
             belowPanel.setVisible(true);
@@ -302,7 +392,6 @@ class GUI extends JFrame implements ActionListener {
             state = 1;
             play();
             repaint();
-
         }
 
         else if (command.length() == 1 && state == 1) {
@@ -355,13 +444,9 @@ class GUI extends JFrame implements ActionListener {
 
     private static void play() {
 
-
         sentence = getword();
-
         random = sentence.toCharArray();
-
         tries = new char[random.length];
-
         for (int i = 0; i < tries.length; i++) {
             tries[i] = '_';
         }
