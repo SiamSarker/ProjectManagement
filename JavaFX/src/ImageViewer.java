@@ -25,12 +25,6 @@ public class ImageViewer {
 
 
 
-        BufferedImage image2 = ImageIO.read(new File("2.png"));
-
-        Image imageScaled2 = image2.getScaledInstance(200, 200, Image.SCALE_SMOOTH);
-
-//                mainPanel.add(ima);
-        g.drawImage(imageScaled2,40,40,150,150,this);
 
 
 

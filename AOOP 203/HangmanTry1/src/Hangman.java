@@ -187,42 +187,8 @@ class GUI extends JFrame implements ActionListener {
 
         if (BodyPart == 1) {
 
-
             Image img = readImage("1.png", w, h);
             g.drawImage(img,40,120, w, h,this);
-
-
-//            JLabel img1 = readImage("1.png", 200,200);
-//
-//            middlePanel.setLayout(null);
-//            middlePanel.add(img1);
-//            img1.setBounds(80,80,200,200);
-
-//            BufferedImage image = ImageIO.read(new File("1.png"));
-//
-//            Image imageScaled = image.getScaledInstance(200, 200, Image.SCALE_SMOOTH);
-//
-//            JLabel imageLabel = new JLabel(new ImageIcon(imageScaled));
-//
-//            mainPanel.setLayout(null);
-//            mainPanel.add(imageLabel);
-//            imageLabel.setBounds(80,80,200,200);
-
-//            g.setColor(Color.BLACK);
-//            g.fillOval(35, 140, 70, 60);
-//            // hat
-//            g.setColor(Color.GRAY);
-//            g.fillRect(48, 120, 48, 30);
-//            g.fillRect(30, 140, 80, 15);
-//
-//            // draw eyes
-//            g.setColor(Color.WHITE);
-//            g.fillOval(55, 160, 10, 10);
-//            g.fillOval(75, 160, 10, 10);
-//
-//            // smile
-//            g.setColor(Color.WHITE);
-//            g.drawArc(50, 175, 40, 10, -10, -180);
         }
 
             if (BodyPart == 2) {
@@ -230,74 +196,28 @@ class GUI extends JFrame implements ActionListener {
                 Image img = readImage("2.png", w, h);
                 g.drawImage(img,40,120, w, h,this);
 
-
-//                Image img2 = readImage("2.png", 400,400);
-
-                //frame.add(img1);
-
-
-//                BufferedImage image2 = ImageIO.read(new File("2.png"));
-//
-//                Image imageScaled2 = image2.getScaledInstance(200, 200, Image.SCALE_SMOOTH);
-//
-//                JLabel imageLabel2 = new JLabel(new ImageIcon(imageScaled2));
-
-                //middlePanel.setLayout(null);
-
-
-//                mainPanel.add(img2);
-//                img2.setBounds(40,80,400,400);
-
-                //imageLabel2.setBounds(80,80,200,200);
-
-                // body
-//                g.setColor(Color.BLACK);
-//                g.fillRect(60, 200, 20, 80);
             }
 
             if (BodyPart == 3) {
 
                 Image img = readImage("3.png", w, h);
                 g.drawImage(img,40,120, w, h,this);
-//
-//                BufferedImage image = ImageIO.read(new File("1.png"));
-////
-//            Image imageScaled = image.getScaledInstance(200, 200, Image.SCALE_SMOOTH);
-//
-//            JLabel imageLabel = new JLabel(new ImageIcon(imageScaled));
-//
-//            mainPanel.setLayout(null);
-//            mainPanel.add(imageLabel);
-//            imageLabel.setBounds(80,80,200,200);
 
-                // left arm
-//                g.setColor(Color.BLACK);
-//                g.fillRect(25, 220, 45, 15);
-//                g.setColor(Color.BLACK);
-//                g.fillRect(15, 220, 10, 15);
             }
             if (BodyPart == 4) {
                 Image img = readImage("4.png", w, h);
                 g.drawImage(img,40,120, w, h,this);
-                // right arm
-//                g.setColor(Color.BLACK);
-//                g.fillRect(80, 220, 45, 15);
-//                g.setColor(Color.BLACK);
-//                g.fillRect(120, 220, 10, 15);
+
             }
             if (BodyPart == 5) {
                 Image img = readImage("5.png", w, h);
                 g.drawImage(img,40,120, w, h,this);
-                // left foot
-//                g.setColor(Color.BLACK);
-//                g.fillRect(35, 280, 30, 15);
+
             }
             if (BodyPart == 6) {
                 Image img = readImage("6.png", w, h);
                 g.drawImage(img,40,120, w, h,this);
-                // right foot
-//                g.setColor(Color.BLACK);
-//                g.fillRect(70, 280, 30, 15);
+
             }
             Message(g);
         }
