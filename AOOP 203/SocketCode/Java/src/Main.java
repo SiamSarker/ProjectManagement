@@ -7,8 +7,8 @@ import java.net.Socket;
 public class Main {
     public static void main(String[] args) {
         try {
-            System.out.println("Waiting for client");
             ServerSocket serverSocket = new ServerSocket(5000);
+            System.out.println("Waiting for client");
             Socket socket = serverSocket.accept();
             System.out.println("Connected to Client");
 
