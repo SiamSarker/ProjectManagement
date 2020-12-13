@@ -12,7 +12,10 @@ public class Main {
 
         try (BufferedWriter bufferedWriter = new BufferedWriter(outputStreamWriter)) {
 
-            bufferedWriter.write("Hello Server");
+            bufferedWriter.write("Hello Server!\n");
+            bufferedWriter.flush();
+
+            bufferedWriter.close();
 
         }
 
