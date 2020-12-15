@@ -5,7 +5,7 @@ import java.net.Socket;
 public class Server5001 {
     public static void main(String[] args) {
         try {
-            ServerSocket serverSocket = new ServerSocket(5002);
+            ServerSocket serverSocket = new ServerSocket(5001);
             System.out.println("Waiting for client");
             Socket socket = serverSocket.accept();
             System.out.println("Connected to Client");

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ccfa281-9f99-4f21-b168-f1c49288a5e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../FX/Client1Fxtry/out/production/Client1Fxtry/sample/Controller$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FX/Client1Fxtry/out/production/Client1Fxtry/sample/Controller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FX/Client1Fxtry/out/production/Client1Fxtry/sample/Controller$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FX/Client1Fxtry/out/production/Client1Fxtry/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FX/Client1Fxtry/out/production/Client1Fxtry/sample/Controller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ServerTest1/Server5001.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServerTest1/Server5001.class" afterDir="false" />
@@ -61,13 +61,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -87,7 +89,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607880137181</updated>
-      <workItem from="1607880138632" duration="5554000" />
+      <workItem from="1607880138632" duration="5706000" />
+      <workItem from="1608003218779" duration="988000" />
     </task>
     <task id="LOCAL-00001" summary="Socket server test 1">
       <created>1607880685039</created>
