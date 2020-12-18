@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ccfa281-9f99-4f21-b168-f1c49288a5e0" name="Default Changelist" comment="Socket server test 2 success" />
+    <list default="true" id="8ccfa281-9f99-4f21-b168-f1c49288a5e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../FX/Client1Fxtry copy 2/Client1Fxtry.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FX/Client1Fxtry copy 3/Client1Fxtry.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FX/Client1Fxtry copy/Client1Fxtry.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FX/OnlineCalculator/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FX/OnlineCalculator/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FX/OnlineCalculator/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FX/OnlineCalculator/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FX/OnlineCalculator/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FX/OnlineCalculator/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FX/OnlineCalculator/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FX/OnlineCalculator/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FX/OnlineCalculator/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FX/OnlineCalculator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FX/OnlineCalculator/OnlineCalculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CalculatorServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,6 +79,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Server5002" />
@@ -81,6 +109,8 @@
       <workItem from="1607880138632" duration="5706000" />
       <workItem from="1608003218779" duration="2819000" />
       <workItem from="1608264331050" duration="5933000" />
+      <workItem from="1608277294321" duration="53000" />
+      <workItem from="1608297610556" duration="2558000" />
     </task>
     <task id="LOCAL-00001" summary="Socket server test 1">
       <created>1607880685039</created>
@@ -117,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608276938697</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Socket server test 2 success">
+      <created>1608277331702</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608277331702</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
