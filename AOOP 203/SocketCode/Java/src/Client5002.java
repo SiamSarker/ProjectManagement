@@ -34,6 +34,7 @@ public class Client5002 implements Runnable {
                     }
                 }
                 clientData = reader.readLine()+"\n";
+                clientData = clientname + " writes: "+clientData;
             }
         } catch (IOException e) {
             e.printStackTrace();
