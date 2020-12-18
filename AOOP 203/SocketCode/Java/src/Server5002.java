@@ -1,29 +1,21 @@
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.ArrayList;
 
 public class Server5002 {
     public static void main(String[] args) {
         try {
             ServerSocket serverSocket = new ServerSocket(5001);
-            System.out.println("Waiting for client");
-            Socket socket = serverSocket.accept();
-            System.out.println("Connected to Client");
+            ArrayList<Client5002> client5002s = new ArrayList<>();
 
-            InputStreamReader isr = new InputStreamReader(socket.getInputStream());
-            BufferedReader bufferedReader = new BufferedReader(isr);
-
-            OutputStreamWriter o = new OutputStreamWriter(socket.getOutputStream());
-            BufferedWriter writer = new BufferedWriter(o);
-
-            String line = bufferedReader.readLine();
-            while (line != null) {
-                System.out.println(line);
-                writer.write(line+"\n");
-                writer.flush();
-                line = bufferedReader.readLine();
+            while (true) {
+                Socket socket = serverSocket.accept();
+                Client5002 client5002 = new Client5002(socket, client5002s);
+                client5002s.add(client5002);
+                Thread clientThread = new Thread(client5002);
+                clientThread.start();
             }
-            socket.close();
 
         }catch (IOException e){
             e.printStackTrace();

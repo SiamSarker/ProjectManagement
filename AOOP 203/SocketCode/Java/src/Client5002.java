@@ -6,6 +6,7 @@ public class Client5002 implements Runnable {
     final private BufferedReader reader;
     final private BufferedWriter writer;
     ArrayList<Client5002> client5002s;
+    String clientname;
 
     public Client5002(Socket socket, ArrayList<Client5002> client5002s) throws IOException {
         InputStreamReader isr = new InputStreamReader(socket.getInputStream());
@@ -14,6 +15,8 @@ public class Client5002 implements Runnable {
         OutputStreamWriter o = new OutputStreamWriter(socket.getOutputStream());
         writer = new BufferedWriter(o);
 
+        clientname = reader.readLine();
+
         this.client5002s = client5002s;
     }
 
@@ -21,7 +24,8 @@ public class Client5002 implements Runnable {
     public void run() {
         String clientData = null;
         try {
-            clientData = reader.readLine();
+            clientData = reader.readLine()+"\n";
+            clientData = clientname + " writes: "+clientData;
             while (clientData != null) {
                 for (Client5002 client : client5002s){
                     synchronized (client.writer) {
@@ -29,7 +33,7 @@ public class Client5002 implements Runnable {
                         client.writer.flush();
                     }
                 }
-                clientData = reader.readLine();
+                clientData = reader.readLine()+"\n";
             }
         } catch (IOException e) {
             e.printStackTrace();

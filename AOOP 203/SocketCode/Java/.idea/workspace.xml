@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ccfa281-9f99-4f21-b168-f1c49288a5e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Client5002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Server5002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FX/Client1Fxtry/out/production/Client1Fxtry/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FX/Client1Fxtry/out/production/Client1Fxtry/sample/Controller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client5002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client5002.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server5002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server5002.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +46,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.Server5001">
+  <component name="RunManager" selected="Application.Server5002">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="ServerTest1" />
@@ -59,21 +61,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration name="Server5002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Server5002" />
+      <module name="ServerTest1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Server5002" />
         <item itemvalue="Application.Server5001" />
         <item itemvalue="Application.Main" />
       </list>
@@ -88,7 +96,8 @@
       <option name="presentableId" value="Default" />
       <updated>1607880137181</updated>
       <workItem from="1607880138632" duration="5706000" />
-      <workItem from="1608003218779" duration="2798000" />
+      <workItem from="1608003218779" duration="2819000" />
+      <workItem from="1608264331050" duration="5894000" />
     </task>
     <task id="LOCAL-00001" summary="Socket server test 1">
       <created>1607880685039</created>
@@ -111,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608017582586</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Socket server test 1 success">
+      <created>1608045338861</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608045338861</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
