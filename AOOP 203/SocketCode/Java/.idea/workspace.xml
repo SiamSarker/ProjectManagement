@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ccfa281-9f99-4f21-b168-f1c49288a5e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Test/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Test/Test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Test/out/production/Test/sample/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Test/out/production/Test/sample/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Test/out/production/Test/sample/sample.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,17 +76,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.CalculatorServer" />
@@ -103,7 +97,8 @@
       <workItem from="1608003218779" duration="2819000" />
       <workItem from="1608264331050" duration="5933000" />
       <workItem from="1608277294321" duration="53000" />
-      <workItem from="1608297610556" duration="3525000" />
+      <workItem from="1608297610556" duration="3953000" />
+      <workItem from="1608394890905" duration="344000" />
     </task>
     <task id="LOCAL-00001" summary="Socket server test 1">
       <created>1607880685039</created>
@@ -154,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608300988320</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="online calculator done">
+      <created>1608306834034</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608306834034</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +168,7 @@
     <MESSAGE value="Socket server test 1 success" />
     <MESSAGE value="Socket server test 2 success" />
     <MESSAGE value="calculator server site" />
-    <option name="LAST_COMMIT_MESSAGE" value="calculator server site" />
+    <MESSAGE value="online calculator done" />
+    <option name="LAST_COMMIT_MESSAGE" value="online calculator done" />
   </component>
 </project>
