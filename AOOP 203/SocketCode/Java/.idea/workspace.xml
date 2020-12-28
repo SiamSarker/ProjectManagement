@@ -2,35 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ccfa281-9f99-4f21-b168-f1c49288a5e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../L4/out/production/L4/Client$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../L4/src/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Projects by Others/Data_SenderReceiver-master/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Projects by Others/Data_SenderReceiver-master/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Projects by Others/Data_SenderReceiver-master/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Projects by Others/Data_SenderReceiver-master/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Projects by Others/Data_SenderReceiver-master/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Projects by Others/Data_SenderReceiver-master/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Projects by Others/Data_SenderReceiver-master/Send_Receive.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FX/Quiz3/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FX/Quiz3/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FX/Quiz3/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FX/Quiz3/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FX/Quiz3/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FX/Quiz3/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FX/Quiz3/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FX/Quiz3/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FX/Quiz3/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FX/Quiz3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FX/Quiz3/Quiz3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ServerTest1/Server$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/text1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/text2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/text3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ArrayList/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ArrayList/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ArrayList/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ArrayList/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ArrayList/A.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ArrayList/ArrayList.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ArrayList/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Projects by Others/University_Projects-master/Java/HangMan/HangMan.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Projects by Others/University_Projects-master/Java/Messenger/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Projects by Others/University_Projects-master/Java/Messenger/.idea/libraries/io_github_typhon0_AnimateFX_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Projects by Others/University_Projects-master/Java/Messenger/.idea/libraries/javafx.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Projects by Others/University_Projects-master/Java/Messenger/.idea/libraries/legal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Projects by Others/University_Projects-master/Java/Messenger/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Projects by Others/University_Projects-master/Java/Messenger/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Projects by Others/University_Projects-master/Java/Messenger/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Projects by Others/University_Projects-master/Java/Messenger/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Projects by Others/University_Projects-master/Java/Messenger/Messenger.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Projects by Others/University_Projects-master/Java/Messenger/Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Projects by Others/University_Projects-master/Java/Notepad/Notepad.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FX3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FX3/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FX3/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FX3/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FX3/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FX3/.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FX3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FX3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FX3/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FX3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FX3/FX3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FX3/out/production/FX3/sample/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FX3/out/production/FX3/sample/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FX3/out/production/FX3/sample/fx3.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../L4/out/production/L4/Client$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../L4/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../L4/src/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServerTest1/Server5001.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ServerTest1/Server5001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server5001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server5001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ServerTest1/Server$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,19 +116,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Server" />
@@ -145,7 +141,10 @@
       <workItem from="1608297610556" duration="3953000" />
       <workItem from="1608394890905" duration="551000" />
       <workItem from="1608436229172" duration="3432000" />
-      <workItem from="1608442670958" duration="3699000" />
+      <workItem from="1608442670958" duration="3859000" />
+      <workItem from="1608453108471" duration="12000" />
+      <workItem from="1609046224322" duration="3821000" />
+      <workItem from="1609161458540" duration="817000" />
     </task>
     <task id="LOCAL-00001" summary="Socket server test 1">
       <created>1607880685039</created>
@@ -203,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608306834034</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="quiz 3 read write (unfinished)">
+      <created>1608450309190</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608450309190</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +222,7 @@
     <MESSAGE value="Socket server test 2 success" />
     <MESSAGE value="calculator server site" />
     <MESSAGE value="online calculator done" />
-    <option name="LAST_COMMIT_MESSAGE" value="online calculator done" />
+    <MESSAGE value="quiz 3 read write (unfinished)" />
+    <option name="LAST_COMMIT_MESSAGE" value="quiz 3 read write (unfinished)" />
   </component>
 </project>

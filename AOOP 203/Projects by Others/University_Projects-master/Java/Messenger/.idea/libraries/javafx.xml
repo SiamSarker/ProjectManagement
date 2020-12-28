@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="javafx">
+    <ANNOTATIONS>
+      <root url="file://$PROJECT_DIR$/../../../../javafx-sdk-11.0.2/legal/javafx.graphics" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../javafx-sdk-11.0.2/legal/javafx.graphics" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/../../../../javafx-sdk-11.0.2/legal/javafx.graphics" />
+    </JAVADOC>
+    <NATIVE>
+      <root url="file://$PROJECT_DIR$/../../../../javafx-sdk-11.0.2/legal/javafx.graphics" />
+    </NATIVE>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../../javafx-sdk-11.0.2/legal/javafx.graphics" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../../../../javafx-sdk-11.0.2/legal/javafx.graphics" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../../javafx-sdk-11.0.2/legal/javafx.graphics" recursive="false" type="SOURCES" />
+  </library>
+</component>

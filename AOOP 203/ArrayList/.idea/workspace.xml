@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9302b8d4-1393-4214-bf38-80181a266c36" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArrayList.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projects by Others/University_Projects-master/Java/HangMan/HangMan.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projects by Others/University_Projects-master/Java/Messenger/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projects by Others/University_Projects-master/Java/Messenger/.idea/libraries/io_github_typhon0_AnimateFX_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projects by Others/University_Projects-master/Java/Messenger/.idea/libraries/javafx.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projects by Others/University_Projects-master/Java/Messenger/.idea/libraries/legal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projects by Others/University_Projects-master/Java/Messenger/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projects by Others/University_Projects-master/Java/Messenger/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projects by Others/University_Projects-master/Java/Messenger/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projects by Others/University_Projects-master/Java/Messenger/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projects by Others/University_Projects-master/Java/Messenger/Messenger.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projects by Others/University_Projects-master/Java/Messenger/Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projects by Others/University_Projects-master/Java/Notepad/Notepad.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FX3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FX3/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FX3/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FX3/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FX3/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FX3/.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FX3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FX3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FX3/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FX3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FX3/FX3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FX3/out/production/FX3/sample/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FX3/out/production/FX3/sample/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FX3/out/production/FX3/sample/fx3.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L4/out/production/L4/Client$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L4/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../L4/src/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SocketCode/Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketCode/Java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SocketCode/Java/out/production/ServerTest1/Server$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SocketCode/Java/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketCode/Java/src/Server.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1mIlr4sPzy8db6a9aWFom7viseV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9302b8d4-1393-4214-bf38-80181a266c36" name="Default Changelist" comment="" />
+      <created>1609189181704</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609189181704</updated>
+      <workItem from="1609189182908" duration="1559000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,5 +1,6 @@
 import java.io.*;
 import java.net.Socket;
+import java.net.UnknownHostException;
 import java.util.Scanner;
 
 public class Client {
@@ -16,31 +17,38 @@ public class Client {
 
             Scanner sc = new Scanner(System.in);
 
-            String fileName = sc.next();
+            System.out.println("Press 1 for search name\nPress 2 for Add new Account");
+            int flag = sc.nextInt();
+            sc.nextLine();
+            if (flag == 1) {
+                String name = sc.nextLine();
+                writer.write("search\n");
+                writer.flush();
+                writer.write(name+"\n");
+                writer.flush();
 
-            writer.write(fileName+".txt\n");
-            writer.flush();
+                String line = Reader.readLine() + "\n";
+                System.out.println(line);
+            } else if (flag == 2) {
 
-            Thread t = new Thread(){
-                @Override
-                public void run() {
-                    try {
-                        String line = Reader.readLine() + "\n";
-                        while (line != null) {
-                            if(line.equals("<eof>")) break;
-                            System.out.println(line);
-                            line = Reader.readLine() + "\n";
-                        }
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
-                }
-            };
-            t.start();
+                writer.write("add\n");
+                writer.flush();
 
-        }catch (Exception e){
+                String name = sc.next();
+                int id = sc.nextInt();
+                double balance = sc.nextDouble();
+                int age = sc.nextInt();
+
+                String line = name +" "+id+" "+balance+" "+age+"\n";
+                writer.write(line+"\n");
+                writer.flush();
+
+            } else
+                System.out.println("Wrong Input");
+
+
+        } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 }
