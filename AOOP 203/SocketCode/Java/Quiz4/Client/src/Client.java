@@ -42,10 +42,33 @@ public class Client {
                 System.out.println("CGPA: ");
                 writer.write(sc.nextLine()+"\n");
                 writer.flush();
+            }
+            else if (flag == 3){
+                writer.write("3");
+                writer.flush();
+                String id = sc.nextLine();
+                writer.write(id);
+                writer.flush();
+            }
+            else if (flag == 4)
+            {
+                writer.write("4");
+                writer.flush();
+                writer.write(sc.nextInt()+"");
+                writer.flush();
+                System.out.println("Updated Name: ");
+                writer.write(sc.nextLine()+"\n");
+                writer.flush();
+                System.out.println("Updated Marks: ");
+                writer.write(sc.nextLine()+"\n");
+                writer.flush();
+                System.out.println("Updated CGPA: ");
+                writer.write(sc.nextLine()+"\n");
+                writer.flush();
 
             }
             else
-                System.out.println("Wrong Input");
+                System.out.println("Wrong Input\n");
 
 
         } catch (IOException e) {

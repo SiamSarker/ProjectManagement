@@ -2,26 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ccfa281-9f99-4f21-b168-f1c49288a5e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Quiz4/Client/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Quiz4/Client/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Quiz4/Client/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Quiz4/Client/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Quiz4/Client/Client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Quiz4/Client/out/production/Client/Client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Quiz4/Client/src/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Quiz4/Server/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Quiz4/Server/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Quiz4/Server/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Quiz4/Server/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Quiz4/Server/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Quiz4/Server/Data/A.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Quiz4/Server/Server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Quiz4/Server/out/production/Server/Server.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Quiz4/Server/out/production/Server/StudentAccount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Quiz4/Server/src/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Quiz4/Server/src/StudentAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ArrayList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ArrayList/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quiz4/Client/out/production/Client/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/Quiz4/Client/out/production/Client/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quiz4/Client/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Quiz4/Client/src/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quiz4/Server/Data/A.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Quiz4/Server/Data/A.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quiz4/Server/out/production/Server/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/Quiz4/Server/out/production/Server/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quiz4/Server/out/production/Server/StudentAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/Quiz4/Server/out/production/Server/StudentAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quiz4/Server/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/Quiz4/Server/src/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quiz4/Server/src/StudentAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/Quiz4/Server/src/StudentAccount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

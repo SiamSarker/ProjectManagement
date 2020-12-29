@@ -1,6 +1,4 @@
-import java.io.Serializable;
-
-public class StudentAccount implements Serializable {
+public class StudentAccount {
     int id;
     String name;
     double marks;
