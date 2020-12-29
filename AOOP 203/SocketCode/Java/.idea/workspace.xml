@@ -2,44 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ccfa281-9f99-4f21-b168-f1c49288a5e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../ArrayList/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ArrayList/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ArrayList/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ArrayList/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ArrayList/A.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ArrayList/ArrayList.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ArrayList/src/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Projects by Others/University_Projects-master/Java/HangMan/HangMan.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Projects by Others/University_Projects-master/Java/Messenger/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Projects by Others/University_Projects-master/Java/Messenger/.idea/libraries/io_github_typhon0_AnimateFX_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Projects by Others/University_Projects-master/Java/Messenger/.idea/libraries/javafx.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Projects by Others/University_Projects-master/Java/Messenger/.idea/libraries/legal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Projects by Others/University_Projects-master/Java/Messenger/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Projects by Others/University_Projects-master/Java/Messenger/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Projects by Others/University_Projects-master/Java/Messenger/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Projects by Others/University_Projects-master/Java/Messenger/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Projects by Others/University_Projects-master/Java/Messenger/Messenger.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Projects by Others/University_Projects-master/Java/Messenger/Project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Projects by Others/University_Projects-master/Java/Notepad/Notepad.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FX3/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FX3/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FX3/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FX3/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FX3/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FX3/.idea/libraries/lib.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FX3/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FX3/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FX3/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FX3/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FX3/FX3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FX3/out/production/FX3/sample/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FX3/out/production/FX3/sample/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FX3/out/production/FX3/sample/fx3.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../L4/out/production/L4/Client$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../L4/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../L4/src/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quiz4/Client/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quiz4/Client/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quiz4/Client/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quiz4/Client/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quiz4/Client/Client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quiz4/Client/out/production/Client/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quiz4/Client/src/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quiz4/Server/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quiz4/Server/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quiz4/Server/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quiz4/Server/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quiz4/Server/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quiz4/Server/Data/A.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quiz4/Server/Server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quiz4/Server/out/production/Server/Server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quiz4/Server/out/production/Server/StudentAccount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quiz4/Server/src/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quiz4/Server/src/StudentAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ArrayList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ArrayList/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServerTest1/Server$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,6 +127,7 @@
       <workItem from="1608453108471" duration="12000" />
       <workItem from="1609046224322" duration="3821000" />
       <workItem from="1609161458540" duration="817000" />
+      <workItem from="1609252776725" duration="797000" />
     </task>
     <task id="LOCAL-00001" summary="Socket server test 1">
       <created>1607880685039</created>
