@@ -10,11 +10,20 @@ public class ArraylistTest2 {
 
             ow.writeObject(acc);
 
+            FileInputStream f2 = new FileInputStream("Data/B.txt");
+            ObjectInputStream or = new ObjectInputStream(f2);
+
+            BankAccount2 acc2 = (BankAccount2) or.readObject();
+            System.out.println(acc2.name+" "+acc2.id+" "+acc2.balance);
+
+            or.close();
             ow.close();
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
 

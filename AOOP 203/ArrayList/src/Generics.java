@@ -7,6 +7,12 @@ public class Generics {
         Integer i1 = 5;
         Integer i2 = 10;
 
+        double res1 = calculateAvg(a1);
+        double res2 = calculateAvg(a2);
+        double res3 = calculateAvg(a3);
+
+        System.out.println(res1+" "+res2+" "+res3);
+
         System.out.println(i1.compareTo(i2));
         // if i1 < i2, compareTo returns negative
         // if i1 > i2, compareTo returns positive
@@ -22,7 +28,7 @@ public class Generics {
     public static <T extends Comparable<T>> T max(T[] arr){
         T max = arr[0];
         for(T item: arr){
-            if(max.compareTo(item) < 0) max = item;
+            if(max.compareTo(item) < 0) max = item;    // if max is less then item it teturns -1
         }
         return max;
     }
