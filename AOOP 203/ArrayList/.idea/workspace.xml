@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9302b8d4-1393-4214-bf38-80181a266c36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../SocketCode/Java/Quiz4/Client/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SocketCode/Java/Quiz4/Client/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SocketCode/Java/Quiz4/Client/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SocketCode/Java/Quiz4/Client/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SocketCode/Java/Quiz4/Client/Client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SocketCode/Java/Quiz4/Client/src/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SocketCode/Java/Quiz4/Server/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SocketCode/Java/Quiz4/Server/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SocketCode/Java/Quiz4/Server/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SocketCode/Java/Quiz4/Server/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SocketCode/Java/Quiz4/Server/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SocketCode/Java/Quiz4/Server/Data/A.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SocketCode/Java/Quiz4/Server/Server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SocketCode/Java/Quiz4/Server/src/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SocketCode/Java/Quiz4/Server/src/StudentAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraylistTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SocketCode/Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketCode/Java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,20 +41,38 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.ArraylistTest2">
+    <configuration name="ArraylistTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraylistTest2" />
+      <module name="ArrayList" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="ArrayList" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ArraylistTest2" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -79,6 +84,7 @@
       <updated>1609189181704</updated>
       <workItem from="1609189182908" duration="2000000" />
       <workItem from="1609253342666" duration="50000" />
+      <workItem from="1609644923332" duration="2382000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1609191839659</created>
