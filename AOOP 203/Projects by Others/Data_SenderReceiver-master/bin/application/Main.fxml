@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MyController">
+   <children>
+      <Label fx:id="status" alignment="CENTER" layoutX="100.0" layoutY="455.0" prefHeight="40.0" prefWidth="220.0" text="Not Connected to any PC">
+         <font>
+            <Font name="Cambria" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="data" alignment="CENTER" layoutX="90.0" layoutY="398.0" prefHeight="49.0" prefWidth="220.0" textFill="#a31a1a">
+         <font>
+            <Font name="Cambria" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="145.0" layoutY="217.0" mnemonicParsing="false" onAction="#browse" prefHeight="40.0" prefWidth="110.0" text="Browse">
+         <font>
+            <Font name="Cambria Bold" size="13.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="188.0" layoutY="257.0" prefHeight="25.0" prefWidth="25.0" text="Or" />
+      <Button layoutX="125.0" layoutY="108.0" mnemonicParsing="false" onAction="#devices" prefHeight="40.0" prefWidth="150.0" text="Connected Devices">
+         <font>
+            <Font name="Cambria Bold" size="13.0" />
+         </font>
+      </Button>
+      <VBox alignment="CENTER" layoutX="90.0" layoutY="282.0" prefHeight="100.0" prefWidth="220.0">
+         <children>
+            <TextField fx:id="messages" alignment="CENTER" prefHeight="60.0" prefWidth="220.0" promptText="Type your messages" />
+            <HBox alignment="CENTER" prefHeight="40.0" prefWidth="220.0" spacing="1.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#sendData" prefHeight="40.0" prefWidth="110.0" text="Send">
+                     <font>
+                        <Font name="Cambria Bold" size="13.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#receiveData" prefHeight="40.0" prefWidth="110.0" text="Receive">
+                     <font>
+                        <Font name="Cambria Bold" size="13.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <HBox alignment="CENTER" layoutX="90.0" layoutY="60.0" prefHeight="40.0" prefWidth="220.0" spacing="1.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#openServer" prefHeight="40.0" prefWidth="110.0" text="Open Server">
+               <font>
+                  <Font name="Cambria Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#connectServer" prefHeight="40.0" prefWidth="110.0" text="Connect Server">
+               <font>
+                  <Font name="Cambria Bold" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
