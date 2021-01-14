@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ccfa281-9f99-4f21-b168-f1c49288a5e0" name="Default Changelist" comment="" />
+    <list default="true" id="8ccfa281-9f99-4f21-b168-f1c49288a5e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ServerCode/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ServerCode/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ServerCode/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ServerCode/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ServerCode/ServerCode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ServerCode/src/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ServerCode/src/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/Leader/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/Leader/src/sample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/Leader/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/Leader/src/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +53,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.Server">
+  <component name="RunManager" selected="Application.Server5002">
     <configuration name="CalculatorServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CalculatorServer" />
       <module name="ServerTest1" />
@@ -77,11 +89,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Server5002" />
         <item itemvalue="Application.Server" />
         <item itemvalue="Application.CalculatorServer" />
-        <item itemvalue="Application.Server5002" />
         <item itemvalue="Application.Server5001" />
         <item itemvalue="Application.Main" />
       </list>
@@ -107,6 +130,7 @@
       <workItem from="1609046224322" duration="3821000" />
       <workItem from="1609161458540" duration="817000" />
       <workItem from="1609252776725" duration="797000" />
+      <workItem from="1610615969410" duration="1808000" />
     </task>
     <task id="LOCAL-00001" summary="Socket server test 1">
       <created>1607880685039</created>

@@ -42,7 +42,7 @@
                         <Font name="Chalkboard" size="20.0" />
                     </font>
                 </Button>
-                <TextArea editable="false" layoutX="648.0" layoutY="300.0" prefHeight="413.0" prefWidth="267.0" promptText="Messenger Area" />
+                <TextArea layoutX="648.0" layoutY="300.0" prefHeight="413.0" prefWidth="267.0" promptText="Messenger Area" />
                 <Label layoutX="686.0" layoutY="265.0" prefHeight="27.0" prefWidth="144.0" text="Messenger Box" textAlignment="CENTER">
                     <font>
                         <Font name="Chalkboard" size="20.0" />
