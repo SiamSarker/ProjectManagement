@@ -2,16 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ccfa281-9f99-4f21-b168-f1c49288a5e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ServerCode/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ServerCode/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ServerCode/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ServerCode/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ServerCode/ServerCode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ServerCode/src/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ServerCode/src/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/Leader/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/Leader/src/sample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ServerCode/out/production/ServerCode/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ServerCode/out/production/ServerCode/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/Leader/out/production/Leader/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/Leader/out/production/Leader/sample/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/Leader/out/production/Leader/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/Leader/out/production/Leader/sample/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/Leader/out/production/Leader/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/Leader/out/production/Leader/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/Leader/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/Leader/src/sample/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/Leader/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/Leader/src/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember1/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember1/src/sample/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember1/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember1/src/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember2/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember2/src/sample/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember2/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember2/src/sample/sample.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember3/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember3/src/sample/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember3/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember3/src/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ServerCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ServerCode/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ServerCode/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ServerCode/src/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FX/Client1Fxtry/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FX/Client1Fxtry/src/sample/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +137,7 @@
       <workItem from="1609046224322" duration="3821000" />
       <workItem from="1609161458540" duration="817000" />
       <workItem from="1609252776725" duration="797000" />
-      <workItem from="1610615969410" duration="1808000" />
+      <workItem from="1610615969410" duration="3391000" />
     </task>
     <task id="LOCAL-00001" summary="Socket server test 1">
       <created>1607880685039</created>

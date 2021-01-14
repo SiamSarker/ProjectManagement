@@ -3,8 +3,8 @@ import java.net.Socket;
 import java.util.ArrayList;
 
 public class Client implements Runnable {
-    private BufferedReader reader;    // used to be in final
-    private BufferedWriter writer;    // used to be in final
+    final private BufferedReader reader;    // used to be in final
+    final private BufferedWriter writer;    // used to be in final
     ArrayList<Client> clients;
     String clientname;
 
@@ -28,7 +28,7 @@ public class Client implements Runnable {
         String clientData = null;
         try {
             clientData = reader.readLine()+"\n";
-            clientData = clientname + " writes: "+clientData;
+            clientData = clientname + " : "+clientData;
             while (clientData != null) {
                 for (Client client : clients){
                     synchronized (client.writer) {

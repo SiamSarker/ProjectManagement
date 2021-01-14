@@ -2,16 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Team Member Design updated">
-      <change afterPath="$PROJECT_DIR$/../../ServerCode/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ServerCode/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ServerCode/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ServerCode/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ServerCode/ServerCode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ServerCode/src/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ServerCode/src/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Leader/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Leader/src/sample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ServerCode/out/production/ServerCode/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ServerCode/out/production/ServerCode/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leader/out/production/Leader/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Leader/out/production/Leader/sample/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leader/out/production/Leader/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Leader/out/production/Leader/sample/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leader/out/production/Leader/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Leader/out/production/Leader/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leader/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Leader/src/sample/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Leader/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Leader/src/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TeamMember1/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TeamMember1/src/sample/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TeamMember1/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../TeamMember1/src/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TeamMember2/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TeamMember2/src/sample/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TeamMember2/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../TeamMember2/src/sample/sample.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServerCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ServerCode/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ServerCode/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ServerCode/src/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../SocketCode/FX/Client1Fxtry/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SocketCode/FX/Client1Fxtry/src/sample/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../SocketCode/Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../SocketCode/Java/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +130,9 @@
     <option name="height" value="876" />
   </component>
   <component name="ProjectId" id="1n2hzEXBl2Uzw4u6ejjPTvzp9Gp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -169,6 +178,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
@@ -277,7 +287,7 @@
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
       <workItem from="1610594353844" duration="884000" />
-      <workItem from="1610615753085" duration="584000" />
+      <workItem from="1610615753085" duration="2695000" />
     </task>
     <task id="LOCAL-00001" summary="Team Member Design updated">
       <created>1610595658303</created>
@@ -327,6 +337,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <MESSAGE value="Team Member Design updated" />
     <option name="LAST_COMMIT_MESSAGE" value="Team Member Design updated" />

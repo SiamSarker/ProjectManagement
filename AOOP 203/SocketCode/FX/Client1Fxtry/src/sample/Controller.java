@@ -24,8 +24,8 @@ public class Controller {
         OutputStreamWriter o = new OutputStreamWriter(socket.getOutputStream());
         writer = new BufferedWriter(o);
 
-        InputStreamReader inputStreamReader = new InputStreamReader(socket.getInputStream());
-        reader = new BufferedReader(inputStreamReader);
+        InputStreamReader isr = new InputStreamReader(socket.getInputStream());
+        reader = new BufferedReader(isr);
 
         writer.write(myName+"\n");
         writer.flush();

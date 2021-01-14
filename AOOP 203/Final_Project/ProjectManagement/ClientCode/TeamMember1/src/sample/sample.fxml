@@ -36,14 +36,14 @@
                     </font>
                 </Label>
                 <TextArea editable="false" layoutX="20.0" layoutY="85.0" prefHeight="113.0" prefWidth="771.0" promptText="Notice Board Area" />
-                <TextArea editable="false" layoutX="492.0" layoutY="258.0" prefHeight="394.0" prefWidth="299.0" promptText="Messenger Area" />
+                <TextArea fx:id="allTextArea" editable="false" layoutX="492.0" layoutY="258.0" prefHeight="394.0" prefWidth="299.0" promptText="Messenger Area" />
                 <Label layoutX="562.0" layoutY="223.0" prefHeight="27.0" prefWidth="144.0" text="Messenger Box" textAlignment="CENTER">
                     <font>
                         <Font name="Chalkboard" size="20.0" />
                     </font>
                 </Label>
-                <TextField layoutX="493.0" layoutY="663.0" prefHeight="55.0" prefWidth="218.0" />
-                <Button layoutX="718.0" layoutY="671.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="71.0" text="Send">
+                <TextField fx:id="msgTextField" layoutX="493.0" layoutY="663.0" prefHeight="55.0" prefWidth="218.0" />
+                <Button layoutX="718.0" layoutY="671.0" mnemonicParsing="false" onAction="#msgSend" prefHeight="40.0" prefWidth="71.0" text="Send">
                     <font>
                         <Font name="Chalkboard" size="20.0" />
                     </font>
