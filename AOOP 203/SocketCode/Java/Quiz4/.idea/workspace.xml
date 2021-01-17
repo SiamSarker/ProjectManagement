@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="acdee58a-1330-4ff0-a63a-2dd59dd889e2" name="Default Changelist" comment="">
+    <list default="true" id="7f46a497-b383-4c4b-b46e-5b3e7e7df37c" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../../../Final/ClientFX/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../Final/ClientFX/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../Final/ClientFX/.idea/description.html" afterDir="false" />
@@ -29,42 +29,35 @@
       <change afterPath="$PROJECT_DIR$/../../../Final/Server/Server.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../Final/Server/out/production/Server/Server.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../Final/Server/src/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../SocketCode/Java/Quiz4/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../SocketCode/Java/Quiz4/.idea/Quiz4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../SocketCode/Java/Quiz4/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../SocketCode/Java/Quiz4/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../SocketCode/Java/Quiz4/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../SocketCode/Java/Quiz4/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../SocketCode/Java/Quiz4/Project 5 (Data Server)/Client/Client1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../SocketCode/Java/Quiz4/Server/Server1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Quiz4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project 5 (Data Server)/Client/Client1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/Server1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../ArrayList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ArrayList/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientCode/TeamMember1/out/production/TeamMember1/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientCode/TeamMember1/out/production/TeamMember1/sample/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientCode/TeamMember1/out/production/TeamMember1/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientCode/TeamMember1/out/production/TeamMember1/sample/sample.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientCode/TeamMember2/out/production/TeamMember2/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientCode/TeamMember2/out/production/TeamMember2/sample/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientCode/TeamMember2/out/production/TeamMember2/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientCode/TeamMember2/out/production/TeamMember2/sample/sample.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientCode/TeamMember3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientCode/TeamMember3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientCode/TeamMember3/out/production/TeamMember3/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientCode/TeamMember3/out/production/TeamMember3/sample/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientCode/TeamMember3/out/production/TeamMember3/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientCode/TeamMember3/out/production/TeamMember3/sample/sample.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../SocketCode/Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SocketCode/Java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../SocketCode/Java/Quiz4/Project 5 (Data Server)/Server/Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SocketCode/Java/Quiz4/Project 5 (Data Server)/Server/Server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Final_Project/ProjectManagement/ClientCode/TeamMember1/out/production/TeamMember1/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Final_Project/ProjectManagement/ClientCode/TeamMember1/out/production/TeamMember1/sample/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Final_Project/ProjectManagement/ClientCode/TeamMember1/out/production/TeamMember1/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Final_Project/ProjectManagement/ClientCode/TeamMember1/out/production/TeamMember1/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Final_Project/ProjectManagement/ClientCode/TeamMember2/out/production/TeamMember2/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Final_Project/ProjectManagement/ClientCode/TeamMember2/out/production/TeamMember2/sample/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Final_Project/ProjectManagement/ClientCode/TeamMember2/out/production/TeamMember2/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Final_Project/ProjectManagement/ClientCode/TeamMember2/out/production/TeamMember2/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Final_Project/ProjectManagement/ClientCode/TeamMember3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Final_Project/ProjectManagement/ClientCode/TeamMember3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Final_Project/ProjectManagement/ClientCode/TeamMember3/out/production/TeamMember3/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Final_Project/ProjectManagement/ClientCode/TeamMember3/out/production/TeamMember3/sample/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Final_Project/ProjectManagement/ClientCode/TeamMember3/out/production/TeamMember3/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Final_Project/ProjectManagement/ClientCode/TeamMember3/out/production/TeamMember3/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Final_Project/ProjectManagement/ServerCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Final_Project/ProjectManagement/ServerCode/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project 5 (Data Server)/Server/Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Project 5 (Data Server)/Server/Server.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
-  <component name="ProjectId" id="1n3RQEZNfKQjVgKApfKWl9mMjzp" />
+  <component name="ProjectId" id="1nBMOheOsfWiURgdA9IyslaJsiA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -78,6 +71,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -86,38 +80,28 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Server" />
-      <module name="ServerCode" />
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Server" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="acdee58a-1330-4ff0-a63a-2dd59dd889e2" name="Default Changelist" comment="" />
-      <created>1610616769887</created>
+      <changelist id="7f46a497-b383-4c4b-b46e-5b3e7e7df37c" name="Default Changelist" comment="" />
+      <created>1610858999898</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1610616769887</updated>
-      <workItem from="1610616771258" duration="4415000" />
-      <workItem from="1610858011553" duration="658000" />
+      <updated>1610858999898</updated>
+      <workItem from="1610859001180" duration="390000" />
     </task>
-    <task id="LOCAL-00001" summary="Server code added">
-      <created>1610618130419</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1610618130419</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,7 +109,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Server code added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Server code added" />
   </component>
 </project>

@@ -2,24 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ccfa281-9f99-4f21-b168-f1c49288a5e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ServerCode/out/production/ServerCode/Client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ServerCode/out/production/ServerCode/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/Leader/out/production/Leader/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/Leader/out/production/Leader/sample/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/Leader/out/production/Leader/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/Leader/out/production/Leader/sample/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/Leader/out/production/Leader/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/Leader/out/production/Leader/sample/sample.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/Leader/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/Leader/src/sample/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/Leader/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/Leader/src/sample/sample.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember1/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember1/src/sample/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember1/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember1/src/sample/sample.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember2/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember2/src/sample/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember2/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember2/src/sample/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Final/ClientFX/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Final/ClientFX/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Final/ClientFX/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Final/ClientFX/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Final/ClientFX/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Final/ClientFX/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Final/ClientFX/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Final/ClientFX/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Final/ClientFX/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Final/ClientFX/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Final/ClientFX/ClientFX.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Final/ClientFX/out/production/ClientFX/sample/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Final/ClientFX/out/production/ClientFX/sample/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Final/ClientFX/out/production/ClientFX/sample/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Final/ClientJava/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Final/ClientJava/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Final/ClientJava/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Final/ClientJava/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Final/ClientJava/ClientJava.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Final/Server/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Final/Server/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Final/Server/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Final/Server/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Final/Server/Data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Final/Server/Server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Final/Server/out/production/Server/Server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Final/Server/src/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quiz4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quiz4/.idea/Quiz4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quiz4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quiz4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quiz4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quiz4/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quiz4/Project 5 (Data Server)/Client/Client1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quiz4/Server/Server1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ArrayList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ArrayList/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember1/out/production/TeamMember1/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember1/out/production/TeamMember1/sample/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember1/out/production/TeamMember1/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember1/out/production/TeamMember1/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember2/out/production/TeamMember2/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember2/out/production/TeamMember2/sample/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember2/out/production/TeamMember2/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember2/out/production/TeamMember2/sample/sample.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember3/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember3/src/sample/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember3/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember3/src/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember3/out/production/TeamMember3/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember3/out/production/TeamMember3/sample/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember3/out/production/TeamMember3/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember3/out/production/TeamMember3/sample/sample.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ServerCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ServerCode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ServerCode/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ServerCode/src/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FX/Client1Fxtry/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FX/Client1Fxtry/src/sample/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quiz4/Project 5 (Data Server)/Server/Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Quiz4/Project 5 (Data Server)/Server/Server.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,13 +124,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,6 +168,7 @@
       <workItem from="1609161458540" duration="817000" />
       <workItem from="1609252776725" duration="797000" />
       <workItem from="1610615969410" duration="3391000" />
+      <workItem from="1610858014470" duration="1824000" />
     </task>
     <task id="LOCAL-00001" summary="Socket server test 1">
       <created>1607880685039</created>

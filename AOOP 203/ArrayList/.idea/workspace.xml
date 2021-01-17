@@ -2,11 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9302b8d4-1393-4214-bf38-80181a266c36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Quiz5/out/production/Quiz5/ArrayTest$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Quiz5/out/production/Quiz5/ArrayTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Quiz5/out/production/Quiz5/Generics.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Quiz5/out/production/Quiz5/University.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/ClientFX/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/ClientFX/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/ClientFX/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/ClientFX/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/ClientFX/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/ClientFX/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/ClientFX/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/ClientFX/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/ClientFX/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/ClientFX/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/ClientFX/ClientFX.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/ClientFX/out/production/ClientFX/sample/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/ClientFX/out/production/ClientFX/sample/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/ClientFX/out/production/ClientFX/sample/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/ClientJava/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/ClientJava/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/ClientJava/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/ClientJava/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/ClientJava/ClientJava.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/Server/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/Server/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/Server/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/Server/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/Server/Data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/Server/Server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/Server/out/production/Server/Server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/Server/src/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocketCode/Java/Quiz4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocketCode/Java/Quiz4/.idea/Quiz4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocketCode/Java/Quiz4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocketCode/Java/Quiz4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocketCode/Java/Quiz4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocketCode/Java/Quiz4/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocketCode/Java/Quiz4/Project 5 (Data Server)/Client/Client1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocketCode/Java/Quiz4/Server/Server1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Final_Project/ProjectManagement/ClientCode/TeamMember1/out/production/TeamMember1/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Final_Project/ProjectManagement/ClientCode/TeamMember1/out/production/TeamMember1/sample/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Final_Project/ProjectManagement/ClientCode/TeamMember1/out/production/TeamMember1/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Final_Project/ProjectManagement/ClientCode/TeamMember1/out/production/TeamMember1/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Final_Project/ProjectManagement/ClientCode/TeamMember2/out/production/TeamMember2/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Final_Project/ProjectManagement/ClientCode/TeamMember2/out/production/TeamMember2/sample/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Final_Project/ProjectManagement/ClientCode/TeamMember2/out/production/TeamMember2/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Final_Project/ProjectManagement/ClientCode/TeamMember2/out/production/TeamMember2/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Final_Project/ProjectManagement/ClientCode/TeamMember3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Final_Project/ProjectManagement/ClientCode/TeamMember3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Final_Project/ProjectManagement/ClientCode/TeamMember3/out/production/TeamMember3/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Final_Project/ProjectManagement/ClientCode/TeamMember3/out/production/TeamMember3/sample/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Final_Project/ProjectManagement/ClientCode/TeamMember3/out/production/TeamMember3/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Final_Project/ProjectManagement/ClientCode/TeamMember3/out/production/TeamMember3/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Final_Project/ProjectManagement/ServerCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Final_Project/ProjectManagement/ServerCode/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SocketCode/Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketCode/Java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SocketCode/Java/Quiz4/Project 5 (Data Server)/Server/Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketCode/Java/Quiz4/Project 5 (Data Server)/Server/Server.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,17 +108,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Generics" />
@@ -97,6 +127,7 @@
       <workItem from="1609189182908" duration="2000000" />
       <workItem from="1609253342666" duration="50000" />
       <workItem from="1609644923332" duration="6958000" />
+      <workItem from="1610859280262" duration="1229000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1609191839659</created>
