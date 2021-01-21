@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f46a497-b383-4c4b-b46e-5b3e7e7df37c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../../GUI/JavaAB/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../GUI/JavaAB/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../GUI/JavaAB/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../GUI/JavaAB/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../GUI/JavaAB/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../GUI/JavaAB/JavaAB.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../GUI/JavaAB/src/JavaAB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../ArrayList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ArrayList/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Final/ClientJava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Final/ClientJava/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Final/Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Final/Server/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Final_Project/ProjectManagement/ServerCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Final_Project/ProjectManagement/ServerCode/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../GUI/JavaAB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../GUI/JavaAB/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +50,9 @@
       <updated>1610858999898</updated>
       <workItem from="1610859001180" duration="390000" />
       <workItem from="1611059987256" duration="46000" />
-      <workItem from="1611067473916" duration="317000" />
+      <workItem from="1611067473916" duration="466000" />
+      <workItem from="1611239720877" duration="56000" />
+      <workItem from="1611239827427" duration="122000" />
     </task>
     <servers />
   </component>

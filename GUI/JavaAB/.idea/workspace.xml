@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5317f2f0-a061-498a-bd24-c81bdbfed065" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaAB.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaAB/JavaAB.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../AOOP 203/ArrayList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AOOP 203/ArrayList/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../AOOP 203/Final/ClientJava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AOOP 203/Final/ClientJava/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../AOOP 203/Final/Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AOOP 203/Final/Server/.idea/workspace.xml" afterDir="false" />
@@ -95,8 +87,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611067465380</updated>
-      <workItem from="1611067467283" duration="512000" />
+      <workItem from="1611067467283" duration="553000" />
     </task>
+    <task id="LOCAL-00001" summary="code">
+      <created>1611070681916</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611070681917</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,5 +104,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="code" />
+    <option name="LAST_COMMIT_MESSAGE" value="code" />
   </component>
 </project>
