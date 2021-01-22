@@ -1,5 +1,6 @@
 package sample;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
@@ -13,6 +14,20 @@ public class Controller {
     TextArea allTextArea;
     @FXML
     TextField msgTextField;
+
+    @FXML
+    TextArea noticeTextArea;
+
+
+    @FXML
+    TextArea chat2TextArea;
+    @FXML
+    TextField chat2TextField;
+
+    @FXML
+    TextArea assign2TextArea;
+    @FXML
+    TextField assign2TextField;
 
     final private BufferedWriter writer;
     final private BufferedReader reader;
@@ -33,12 +48,31 @@ public class Controller {
 
         Thread t = new Thread(){
             public void run(){
+                String condition;
                 try {
-                    String line = reader.readLine() + "\n";
-                    while (line!=null){
-                        allTextArea.appendText(line);
-                        line = reader.readLine()+ "\n";
+                    while (true){
+                        condition = reader.readLine() + "\n";
+                        if (condition.contains("AllMsg")){
+                            String line = reader.readLine() + "\n";
+                            allTextArea.appendText(line);
+                        }
+                        else if (condition.contains("notice")){
+                            String line = reader.readLine() + "\n";
+                            noticeTextArea.appendText(line);
+                        }
+                        else if (condition.contains("assign2")){
+                            String line = reader.readLine() + "\n";
+                            assign2TextArea.appendText(line);
+                        }
+
+                        else if (condition.contains("chat2")){
+                            String line = reader.readLine() + "\n";
+                            chat2TextArea.appendText(line);
+                        }
+
                     }
+
+
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
@@ -53,10 +87,30 @@ public class Controller {
     void msgSend() throws IOException {
         String msg = msgTextField.getText() +"\n";
         msgTextField.setText("");
+        writer.write("AllMsg\n");
+        writer.flush();
+        writer.write(msg);
+        writer.flush();
+
+    }
+
+    @FXML
+    void chat2() throws IOException {
+        String msg = chat2TextField.getText() +"\n";
+        chat2TextField.setText("");
+        writer.write("chat2\n");
+        writer.flush();
         writer.write(msg);
         writer.flush();
     }
 
-
-
+    @FXML
+    void assign2() throws IOException {
+        String msg = assign2TextField.getText() +"\n";
+        assign2TextField.setText("");
+        writer.write("assign2\n");
+        writer.flush();
+        writer.write(msg);
+        writer.flush();
+    }
 }

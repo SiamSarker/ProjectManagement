@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TextArea?>
-<?import javafx.scene.control.TextField?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.ColumnConstraints?>
-<?import javafx.scene.layout.GridPane?>
-<?import javafx.scene.layout.RowConstraints?>
-<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
 <GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
     <columnConstraints>
@@ -35,7 +29,7 @@
                         <Font name="Chalkboard" size="20.0" />
                     </font>
                 </Label>
-                <TextArea editable="false" layoutX="20.0" layoutY="85.0" prefHeight="113.0" prefWidth="771.0" promptText="Notice Board Area" />
+                <TextArea fx:id="noticeTextArea" editable="false" layoutX="20.0" layoutY="85.0" prefHeight="113.0" prefWidth="771.0" promptText="Notice Board Area" />
                 <TextArea fx:id="allTextArea" editable="false" layoutX="492.0" layoutY="258.0" prefHeight="394.0" prefWidth="299.0" promptText="Messenger Area" />
                 <Label layoutX="562.0" layoutY="223.0" prefHeight="27.0" prefWidth="144.0" text="Messenger Box" textAlignment="CENTER">
                     <font>
@@ -58,16 +52,16 @@
                         <Font name="Chalkboard" size="20.0" />
                     </font>
                 </Label>
-                <TextArea editable="false" layoutX="16.0" layoutY="250.0" prefHeight="138.0" prefWidth="465.0" promptText="Task Area" />
-                <TextArea editable="false" layoutX="20.0" layoutY="486.0" prefHeight="144.0" prefWidth="459.0" promptText="Task Area" />
-                <TextField layoutX="15.0" layoutY="652.0" prefHeight="38.0" prefWidth="365.0" />
-                <Button layoutX="398.0" layoutY="654.0" minWidth="48.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="78.0" text="Send">
+                <TextArea fx:id="assign2TextArea" editable="false" layoutX="16.0" layoutY="250.0" prefHeight="138.0" prefWidth="465.0" promptText="Task Area" />
+                <TextArea fx:id="chat2TextArea" editable="false" layoutX="20.0" layoutY="486.0" prefHeight="144.0" prefWidth="459.0" promptText="Task Area" />
+                <TextField fx:id="chat2TextField" layoutX="15.0" layoutY="652.0" prefHeight="38.0" prefWidth="365.0" />
+                <Button layoutX="398.0" layoutY="654.0" minWidth="48.0" mnemonicParsing="false" onAction="#chat2" prefHeight="35.0" prefWidth="78.0" text="Send">
                     <font>
                         <Font name="Chalkboard" size="14.0" />
                     </font>
                 </Button>
-                <TextField layoutX="17.0" layoutY="404.0" prefHeight="38.0" prefWidth="345.0" />
-                <Button layoutX="374.0" layoutY="406.0" minWidth="48.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="107.0" text="Update Task">
+                <TextField fx:id="assign2TextField" layoutX="17.0" layoutY="404.0" prefHeight="38.0" prefWidth="345.0" />
+                <Button layoutX="374.0" layoutY="406.0" minWidth="48.0" mnemonicParsing="false" onAction="#assign2" prefHeight="35.0" prefWidth="107.0" text="Update Task">
                     <font>
                         <Font name="Chalkboard" size="14.0" />
                     </font>
