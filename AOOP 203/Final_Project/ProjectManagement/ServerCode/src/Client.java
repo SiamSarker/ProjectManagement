@@ -31,7 +31,7 @@ public class Client implements Runnable {
             System.out.println(condition);
 
             clientData = reader.readLine()+"\n";
-            if (condition.contains("AllMsg"))
+            if (condition.contains("AllMsg")|| condition.contains("chat"))
                 clientData = clientname + " : "+clientData;
             while (clientData != null) {
                 for (Client client : clients){
@@ -44,6 +44,30 @@ public class Client implements Runnable {
                             client.writer.write("notice\n");
                             client.writer.flush();
                         }
+                        else if (condition.contains("assign1")){
+                            client.writer.write("assign1\n");
+                            client.writer.flush();
+                        }
+                        else if (condition.contains("assign2")){
+                            client.writer.write("assign2\n");
+                            client.writer.flush();
+                        }
+                        else if (condition.contains("assign3")){
+                            client.writer.write("assign3\n");
+                            client.writer.flush();
+                        }
+                        else if (condition.contains("chat1")){
+                            client.writer.write("chat1\n");
+                            client.writer.flush();
+                        }
+                        else if (condition.contains("chat2")){
+                            client.writer.write("chat2\n");
+                            client.writer.flush();
+                        }
+                        else if (condition.contains("chat3")){
+                            client.writer.write("chat3\n");
+                            client.writer.flush();
+                        }
 
                         client.writer.write(clientData);
                         client.writer.flush();
@@ -51,7 +75,7 @@ public class Client implements Runnable {
                 }
                 condition = reader.readLine()+"\n";
                 clientData = reader.readLine()+"\n";
-                if (condition.contains("AllMsg"))
+                if (condition.contains("AllMsg") || condition.contains("chat"))
                     clientData = clientname + " : "+clientData;
 
             }
