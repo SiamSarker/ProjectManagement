@@ -14,6 +14,11 @@ public class Controller {
     @FXML
     TextField msgTextField;
 
+    @FXML
+    TextArea noticeTextArea;
+    @FXML
+    TextField noticeTextField;
+
     final private BufferedWriter writer;
     final private BufferedReader reader;
 
@@ -31,7 +36,32 @@ public class Controller {
         writer.write(myName+"\n");
         writer.flush();
 
-        Thread t = new Thread(){
+//        Thread t = new Thread(){
+//            public void run(){
+//                try {
+//                    String line = reader.readLine() + "\n";
+//                    while (line!=null){
+//                        allTextArea.appendText(line);
+//                        line = reader.readLine()+ "\n";
+//                    }
+//                } catch (IOException e) {
+//                    e.printStackTrace();
+//                }
+//            }
+//        };
+//        t.start();
+    }
+
+    // done initializing reader writer with
+
+    @FXML
+    void msgSend() throws IOException {
+        String msg = msgTextField.getText() +"\n";
+        msgTextField.setText("");
+        writer.write(msg);
+        writer.flush();
+
+        Thread t1 = new Thread(){
             public void run(){
                 try {
                     String line = reader.readLine() + "\n";
@@ -44,17 +74,9 @@ public class Controller {
                 }
             }
         };
-        t.start();
-    }
+        t1.start();
 
-    // done initializing reader writer with
 
-    @FXML
-    void msgSend() throws IOException {
-        String msg = msgTextField.getText() +"\n";
-        msgTextField.setText("");
-        writer.write(msg);
-        writer.flush();
     }
 
 

@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acdee58a-1330-4ff0-a63a-2dd59dd889e2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../ArrayList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ArrayList/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Final/ClientJava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Final/ClientJava/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Final/Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Final/Server/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../SocketCode/Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SocketCode/Java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../SocketCode/Java/Quiz4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SocketCode/Java/Quiz4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../GUI/JavaAB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../GUI/JavaAB/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientCode/TeamMember3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientCode/TeamMember3/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +68,7 @@
       <workItem from="1611067479940" duration="461000" />
       <workItem from="1611239724952" duration="52000" />
       <workItem from="1611239826472" duration="12000" />
+      <workItem from="1611245958754" duration="17000" />
     </task>
     <task id="LOCAL-00001" summary="Server code added">
       <created>1610618130419</created>

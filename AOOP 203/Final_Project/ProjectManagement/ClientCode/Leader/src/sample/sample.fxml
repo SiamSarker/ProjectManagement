@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TextArea?>
-<?import javafx.scene.control.TextField?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.ColumnConstraints?>
-<?import javafx.scene.layout.GridPane?>
-<?import javafx.scene.layout.RowConstraints?>
-<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
 <GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
     <columnConstraints>
@@ -35,9 +29,9 @@
                         <Font name="Chalkboard" size="20.0" />
                     </font>
                 </Label>
-                <TextArea editable="false" layoutX="20.0" layoutY="85.0" prefHeight="113.0" prefWidth="889.0" promptText="Notice Board Area" />
-                <TextField layoutX="20.0" layoutY="209.0" prefHeight="38.0" prefWidth="724.0" />
-                <Button layoutX="758.0" layoutY="209.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="151.0" text="Notice">
+                <TextArea fx:id="noticeTextArea" editable="false" layoutX="20.0" layoutY="85.0" prefHeight="113.0" prefWidth="889.0" promptText="Notice Board Area" />
+                <TextField fx:id="noticeTextField" layoutX="20.0" layoutY="209.0" prefHeight="38.0" prefWidth="724.0" />
+                <Button layoutX="758.0" layoutY="209.0" mnemonicParsing="false" onAction="#noticeSend" prefHeight="38.0" prefWidth="151.0" text="Notice">
                     <font>
                         <Font name="Chalkboard" size="20.0" />
                     </font>
@@ -67,13 +61,13 @@
                 <TextArea editable="false" layoutX="16.0" layoutY="289.0" prefHeight="79.0" prefWidth="329.0" promptText="Task Area" />
                 <TextArea editable="false" layoutX="385.0" layoutY="289.0" prefHeight="79.0" prefWidth="249.0" promptText="Task Area" />
                 <TextField layoutX="385.0" layoutY="385.0" prefHeight="38.0" prefWidth="172.0" />
-                <Button layoutX="562.0" layoutY="387.0" minWidth="48.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="70.0" text="Send">
+                <Button layoutX="562.0" layoutY="387.0" minWidth="48.0" mnemonicParsing="false" onAction="#chat1" prefHeight="35.0" prefWidth="70.0" text="Send">
                     <font>
                         <Font name="Chalkboard" size="14.0" />
                     </font>
                 </Button>
                 <TextField layoutX="14.0" layoutY="385.0" prefHeight="38.0" prefWidth="249.0" />
-                <Button layoutX="275.0" layoutY="387.0" minWidth="48.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="70.0" text="Assign">
+                <Button layoutX="275.0" layoutY="387.0" minWidth="48.0" mnemonicParsing="false" onAction="#assign1" prefHeight="35.0" prefWidth="70.0" text="Assign">
                     <font>
                         <Font name="Chalkboard" size="14.0" />
                     </font>
@@ -91,13 +85,13 @@
                 <TextArea editable="false" layoutX="16.0" layoutY="467.0" prefHeight="79.0" prefWidth="329.0" promptText="Task Area" />
                 <TextArea editable="false" layoutX="385.0" layoutY="467.0" prefHeight="79.0" prefWidth="249.0" promptText="Task Area" />
                 <TextField layoutX="385.0" layoutY="563.0" prefHeight="38.0" prefWidth="172.0" />
-                <Button layoutX="562.0" layoutY="565.0" minWidth="48.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="70.0" text="Send">
+                <Button layoutX="562.0" layoutY="565.0" minWidth="48.0" mnemonicParsing="false" onAction="#chat2" prefHeight="35.0" prefWidth="70.0" text="Send">
                     <font>
                         <Font name="Chalkboard" size="14.0" />
                     </font>
                 </Button>
                 <TextField layoutX="14.0" layoutY="563.0" prefHeight="38.0" prefWidth="249.0" />
-                <Button layoutX="275.0" layoutY="565.0" minWidth="48.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="70.0" text="Assign">
+                <Button layoutX="275.0" layoutY="565.0" minWidth="48.0" mnemonicParsing="false" onAction="#assign2" prefHeight="35.0" prefWidth="70.0" text="Assign">
                     <font>
                         <Font name="Chalkboard" size="14.0" />
                     </font>
@@ -115,13 +109,13 @@
                 <TextArea editable="false" layoutX="16.0" layoutY="650.0" prefHeight="79.0" prefWidth="329.0" promptText="Task Area" />
                 <TextArea editable="false" layoutX="385.0" layoutY="650.0" prefHeight="79.0" prefWidth="249.0" promptText="Task Area" />
                 <TextField layoutX="385.0" layoutY="746.0" prefHeight="38.0" prefWidth="172.0" />
-                <Button layoutX="562.0" layoutY="748.0" minWidth="48.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="70.0" text="Send">
+                <Button layoutX="562.0" layoutY="748.0" minWidth="48.0" mnemonicParsing="false" onAction="#send3" prefHeight="35.0" prefWidth="70.0" text="Send">
                     <font>
                         <Font name="Chalkboard" size="14.0" />
                     </font>
                 </Button>
                 <TextField layoutX="14.0" layoutY="746.0" prefHeight="38.0" prefWidth="249.0" />
-                <Button layoutX="275.0" layoutY="748.0" minWidth="48.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="70.0" text="Assign">
+                <Button layoutX="275.0" layoutY="748.0" minWidth="48.0" mnemonicParsing="false" onAction="#assign3" prefHeight="35.0" prefWidth="70.0" text="Assign">
                     <font>
                         <Font name="Chalkboard" size="14.0" />
                     </font>

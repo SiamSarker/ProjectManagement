@@ -16,6 +16,8 @@ public class Server {
 
                 Thread clientThread = new Thread(client);
                 clientThread.start();
+
+
             }
 
         }catch (IOException e){
