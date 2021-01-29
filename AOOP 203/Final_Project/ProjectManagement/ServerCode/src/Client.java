@@ -31,8 +31,10 @@ public class Client implements Runnable {
             System.out.println(condition);
 
             clientData = reader.readLine()+"\n";
+
             if (condition.contains("AllMsg")|| condition.contains("chat"))
                 clientData = clientname + " : "+clientData;
+
             while (clientData != null) {
                 for (Client client : clients){
                     synchronized (client.writer) {
