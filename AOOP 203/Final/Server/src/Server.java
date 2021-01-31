@@ -14,9 +14,9 @@ public class Server {
             OutputStreamWriter o = new OutputStreamWriter(socket.getOutputStream());
             BufferedWriter writer = new BufferedWriter(o);
 
-            FileReader fr = new FileReader("data.txt");
+            FileReader fr = new FileReader("Data.txt");
             BufferedReader bufferedReader = new BufferedReader(fr);
-            FileWriter fw = new FileWriter("data.txt", true);
+            FileWriter fw = new FileWriter("Data.txt", true);
             BufferedWriter bufferedWriter = new BufferedWriter(fw);
 
 

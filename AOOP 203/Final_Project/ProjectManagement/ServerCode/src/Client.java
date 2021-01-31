@@ -15,11 +15,20 @@ public class Client implements Runnable {
         OutputStreamWriter o = new OutputStreamWriter(socket.getOutputStream());
         writer = new BufferedWriter(o);
 
+
+
         clientname = reader.readLine();
 
         this.clients = clients;
     }
 
+
+    FileReader fr = new FileReader("Data.txt");
+    BufferedReader bufferedReader = new BufferedReader(fr);
+
+    FileWriter fw = new FileWriter("Data.txt");
+    BufferedWriter bufferedWriter = new BufferedWriter(fw);
+    PrintWriter out = new PrintWriter(bufferedWriter);
 
     @Override
     public void run() {
@@ -30,10 +39,21 @@ public class Client implements Runnable {
             condition = reader.readLine()+"\n";
             System.out.println(condition);
 
+            System.out.println(bufferedReader.readLine());
+            out.println("hellofvaav");
+
+            System.out.println((new File("Data.txt")).exists());
+
+
+
             clientData = reader.readLine()+"\n";
 
             if (condition.contains("AllMsg")|| condition.contains("chat"))
                 clientData = clientname + " : "+clientData;
+            else if (condition.contains("notice")){
+                clientData = "==> "+clientData;
+                System.out.println("Here" + clientData);
+            }
 
             while (clientData != null) {
                 for (Client client : clients){
@@ -43,8 +63,10 @@ public class Client implements Runnable {
                             client.writer.flush();
                         }
                         else if (condition.contains("notice")){
+
                             client.writer.write("notice\n");
                             client.writer.flush();
+
                         }
                         else if (condition.contains("assign1")){
                             client.writer.write("assign1\n");
@@ -79,8 +101,10 @@ public class Client implements Runnable {
                 clientData = reader.readLine()+"\n";
                 if (condition.contains("AllMsg") || condition.contains("chat"))
                     clientData = clientname + " : "+clientData;
-
+                else if (condition.contains("notice"))
+                    clientData = "==> "+clientData;
             }
+
 
 
         } catch (IOException e) {

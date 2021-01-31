@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af4edfac-a9aa-49cd-bd8a-d5947837b17d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../ArrayList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ArrayList/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/Data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ServerCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ServerCode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SocketCode/Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SocketCode/Java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SocketCode/Java/Quiz4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SocketCode/Java/Quiz4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../GUI/JavaAB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../GUI/JavaAB/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ServerCode/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ServerCode/src/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/out/production/ServerCode/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/out/production/ServerCode/Client.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +52,7 @@
       <workItem from="1611059977854" duration="55000" />
       <workItem from="1611067413540" duration="526000" />
       <workItem from="1611239713165" duration="34000" />
+      <workItem from="1612122527880" duration="31000" />
     </task>
     <servers />
   </component>
