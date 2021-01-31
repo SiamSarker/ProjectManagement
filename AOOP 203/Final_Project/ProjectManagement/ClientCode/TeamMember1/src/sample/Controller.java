@@ -105,12 +105,32 @@ public class Controller {
     }
 
     @FXML
-    void assign1() throws IOException {
+    void begin1() throws IOException {
         String msg = assign1TextField.getText() +"\n";
         assign1TextField.setText("");
         writer.write("assign1\n");
         writer.flush();
-        writer.write(msg);
+        writer.write("[Beggining] "+msg);
+        writer.flush();
+    }
+
+    @FXML
+    void run1() throws IOException {
+        String msg = assign1TextField.getText() +"\n";
+        assign1TextField.setText("");
+        writer.write("assign1\n");
+        writer.flush();
+        writer.write("[Running] "+msg);
+        writer.flush();
+    }
+
+    @FXML
+    void end1() throws IOException {
+        String msg = assign1TextField.getText() +"\n";
+        assign1TextField.setText("");
+        writer.write("assign1\n");
+        writer.flush();
+        writer.write("[Ended] "+msg);
         writer.flush();
     }
 }

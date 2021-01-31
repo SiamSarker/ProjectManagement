@@ -3,7 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="2f803c72-7712-418d-a102-4200f64aa87d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember1/out/production/TeamMember1/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember1/out/production/TeamMember1/sample/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember1/out/production/TeamMember1/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember1/out/production/TeamMember1/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember1/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember1/src/sample/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember1/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember1/src/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember2/out/production/TeamMember2/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember2/out/production/TeamMember2/sample/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember2/out/production/TeamMember2/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember2/out/production/TeamMember2/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember2/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember2/src/sample/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember2/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember2/src/sample/sample.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember3/out/production/TeamMember3/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember3/out/production/TeamMember3/sample/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember3/out/production/TeamMember3/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember3/out/production/TeamMember3/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember3/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember3/src/sample/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember3/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/ClientCode/TeamMember3/src/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/out/production/ServerCode/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Final_Project/ProjectManagement/out/production/ServerCode/Client.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +81,8 @@
       <workItem from="1611067471239" duration="469000" />
       <workItem from="1611239717908" duration="43000" />
       <workItem from="1611245996130" duration="639000" />
+      <workItem from="1612097112245" duration="63000" />
+      <workItem from="1612110467297" duration="366000" />
     </task>
     <task id="LOCAL-00001" summary="final xm done">
       <created>1610867638712</created>
