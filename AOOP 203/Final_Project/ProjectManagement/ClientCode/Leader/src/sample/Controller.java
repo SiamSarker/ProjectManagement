@@ -107,6 +107,23 @@ public class Controller {
                             String line = reader.readLine() + "\n";
                             chat3TextArea.appendText(line);
                         }
+                        else if (condition.contains("allNotice")){
+                            String line = reader.readLine() + "\n";
+                            noticeTextArea.appendText(line);
+                        }
+                        else if (condition.contains("allAssign1")){
+                            String line = reader.readLine() + "\n";
+                            assign1TextArea.appendText(line);
+                        }
+                        else if (condition.contains("allAssign2")){
+                            String line = reader.readLine() + "\n";
+                            assign2TextArea.appendText(line);
+                        }
+                        else if (condition.contains("allAssign3")){
+                            String line = reader.readLine() + "\n";
+                            assign3TextArea.appendText(line);
+                        }
+
                     }
 
 
@@ -201,5 +218,40 @@ public class Controller {
         writer.flush();
     }
 
+    @FXML
+    void allnotice() throws IOException {
+        chat3TextField.setText("");
+        writer.write("allNotice\n");
+        writer.flush();
+        writer.write("\n");
+        writer.flush();
+    }
 
+    @FXML
+    void allAssign1() throws IOException {
+
+        assign1TextField.setText("");
+        writer.write("allAssign1\n");
+        writer.flush();
+        writer.write("\n");
+        writer.flush();
+    }
+
+    @FXML
+    void allAssign2() throws IOException {
+        assign1TextField.setText("");
+        writer.write("allAssign2\n");
+        writer.flush();
+        writer.write("\n");
+        writer.flush();
+    }
+
+    @FXML
+    void allAssign3() throws IOException {
+        assign1TextField.setText("");
+        writer.write("allAssign3\n");
+        writer.flush();
+        writer.write("\n");
+        writer.flush();
+    }
 }

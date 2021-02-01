@@ -1,6 +1,7 @@
 import java.io.*;
 import java.net.Socket;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Client implements Runnable {
     final private BufferedReader reader;
@@ -21,7 +22,6 @@ public class Client implements Runnable {
 
         this.clients = clients;
     }
-
 
 
 
@@ -54,6 +54,24 @@ public class Client implements Runnable {
                 clientData = clientname + " : "+clientData;
             else if (condition.contains("notice")){
                 clientData = "==> "+clientData;
+                fileWriter = new FileWriter(file,  true);
+                fileWriter.append(clientData);
+                fileWriter.close();
+            }
+            else if (condition.contains("assign1")){
+                fileWriter = new FileWriter(file1, true);
+                fileWriter.append(clientData);
+                fileWriter.close();
+            }
+            else if (condition.contains("assign2")){
+                fileWriter = new FileWriter(file2, true);
+                fileWriter.append(clientData);
+                fileWriter.close();
+            }
+            else if (condition.contains("assign3")){
+                fileWriter = new FileWriter(file3, true);
+                fileWriter.append(clientData);
+                fileWriter.close();
             }
 
             while (clientData != null) {
@@ -64,31 +82,19 @@ public class Client implements Runnable {
                             client.writer.flush();
                         }
                         else if (condition.contains("notice")){
-                            fileWriter = new FileWriter(file,  true);
-                            fileWriter.append(clientData);
-                            fileWriter.close();
                             client.writer.write("notice\n");
                             client.writer.flush();
 
                         }
                         else if (condition.contains("assign1")){
-                            fileWriter = new FileWriter(file1, true);
-                            fileWriter.append(clientData);
-                            fileWriter.close();
                             client.writer.write("assign1\n");
                             client.writer.flush();
                         }
                         else if (condition.contains("assign2")){
-                            fileWriter = new FileWriter(file2, true);
-                            fileWriter.append(clientData);
-                            fileWriter.close();
                             client.writer.write("assign2\n");
                             client.writer.flush();
                         }
                         else if (condition.contains("assign3")){
-                            fileWriter = new FileWriter(file3, true);
-                            fileWriter.append(clientData);
-                            fileWriter.close();
                             client.writer.write("assign3\n");
                             client.writer.flush();
                         }
@@ -104,6 +110,58 @@ public class Client implements Runnable {
                             client.writer.write("chat3\n");
                             client.writer.flush();
                         }
+                        else if (condition.contains("allNotice")){
+                            Scanner readFile = new Scanner(file);
+
+                            while (readFile.hasNextLine()){
+                                client.writer.write("allNotice\n");
+                                client.writer.flush();
+                                client.writer.write(readFile.nextLine()+"\n");
+                                client.writer.flush();
+                            }
+
+                            client.writer.write("allNotice\n");
+                            client.writer.flush();
+                        }
+                        else if (condition.contains("allAssign1")){
+                            Scanner readFile = new Scanner(file1);
+
+                            while (readFile.hasNextLine()){
+                                client.writer.write("allAssign1\n");
+                                client.writer.flush();
+                                client.writer.write(readFile.nextLine()+"\n");
+                                client.writer.flush();
+                            }
+
+                            client.writer.write("allAssign1\n");
+                            client.writer.flush();
+                        }
+                        else if (condition.contains("allAssign2")){
+                            Scanner readFile = new Scanner(file2);
+
+                            while (readFile.hasNextLine()){
+                                client.writer.write("allAssign2\n");
+                                client.writer.flush();
+                                client.writer.write(readFile.nextLine()+"\n");
+                                client.writer.flush();
+                            }
+
+                            client.writer.write("allAssign2\n");
+                            client.writer.flush();
+                        }
+                        else if (condition.contains("allAssign3")){
+                            Scanner readFile = new Scanner(file3);
+
+                            while (readFile.hasNextLine()){
+                                client.writer.write("allAssign3\n");
+                                client.writer.flush();
+                                client.writer.write(readFile.nextLine()+"\n");
+                                client.writer.flush();
+                            }
+
+                            client.writer.write("allAssign3\n");
+                            client.writer.flush();
+                        }
 
                         client.writer.write(clientData);
                         client.writer.flush();
@@ -115,10 +173,27 @@ public class Client implements Runnable {
                     clientData = clientname + " : "+clientData;
                 else if (condition.contains("notice")){
                     clientData = "==> "+clientData;
+                    fileWriter = new FileWriter(file,  true);
+                    fileWriter.append(clientData);
+                    fileWriter.close();
+                }
+                else if (condition.contains("assign1")){
+                    fileWriter = new FileWriter(file1, true);
+                    fileWriter.append(clientData);
+                    fileWriter.close();
+                }
+                else if (condition.contains("assign2")){
+                    fileWriter = new FileWriter(file2, true);
+                    fileWriter.append(clientData);
+                    fileWriter.close();
+                }
+                else if (condition.contains("assign3")){
+                    fileWriter = new FileWriter(file3, true);
+                    fileWriter.append(clientData);
+                    fileWriter.close();
                 }
 
             }
-
 
 
         } catch (IOException e) {

@@ -69,6 +69,14 @@ public class Controller {
                             String line = reader.readLine() + "\n";
                             chat1TextArea.appendText(line);
                         }
+                        else if (condition.contains("allNotice")){
+                            String line = reader.readLine() + "\n";
+                            noticeTextArea.appendText(line);
+                        }
+                        else if (condition.contains("allAssign1")){
+                            String line = reader.readLine() + "\n";
+                            assign1TextArea.appendText(line);
+                        }
 
                     }
 

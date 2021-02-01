@@ -70,8 +70,16 @@ public class Controller {
                             chat3TextArea.appendText(line);
                         }
 
-                    }
+                        else if (condition.contains("allNotice")){
+                            String line = reader.readLine() + "\n";
+                            noticeTextArea.appendText(line);
+                        }
+                        else if (condition.contains("allAssign1")){
+                            String line = reader.readLine() + "\n";
+                            assign3TextArea.appendText(line);
+                        }
 
+                    }
 
                 } catch (IOException e) {
                     e.printStackTrace();

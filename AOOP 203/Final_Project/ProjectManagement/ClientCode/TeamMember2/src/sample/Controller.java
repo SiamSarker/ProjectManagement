@@ -70,6 +70,15 @@ public class Controller {
                             chat2TextArea.appendText(line);
                         }
 
+                        else if (condition.contains("allNotice")){
+                            String line = reader.readLine() + "\n";
+                            noticeTextArea.appendText(line);
+                        }
+                        else if (condition.contains("allAssign1")){
+                            String line = reader.readLine() + "\n";
+                            assign2TextArea.appendText(line);
+                        }
+
                     }
 
 
