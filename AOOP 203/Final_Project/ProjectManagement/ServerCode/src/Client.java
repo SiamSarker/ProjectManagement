@@ -8,6 +8,7 @@ public class Client implements Runnable {
     ArrayList<Client> clients;
     String clientname;
 
+
     public Client(Socket socket, ArrayList<Client> clients) throws IOException {
         InputStreamReader isr = new InputStreamReader(socket.getInputStream());
         reader = new BufferedReader(isr);
@@ -16,22 +17,18 @@ public class Client implements Runnable {
         writer = new BufferedWriter(o);
 
 
-
         clientname = reader.readLine();
 
         this.clients = clients;
     }
 
 
-    FileReader fr = new FileReader("Data.txt");
-    BufferedReader bufferedReader = new BufferedReader(fr);
 
-    FileWriter fw = new FileWriter("Data.txt");
-    BufferedWriter bufferedWriter = new BufferedWriter(fw);
-    PrintWriter out = new PrintWriter(bufferedWriter);
+
 
     @Override
     public void run() {
+
         String clientData = null;
         String condition = null;
         try {
@@ -39,11 +36,13 @@ public class Client implements Runnable {
             condition = reader.readLine()+"\n";
             System.out.println(condition);
 
-            System.out.println(bufferedReader.readLine());
-            out.println("hellofvaav");
-
             System.out.println((new File("Data.txt")).exists());
+            File file = new File("Data.txt");
+            FileWriter fileWriter;
 
+
+
+            System.out.println("Writing done");
 
 
             clientData = reader.readLine()+"\n";
@@ -52,6 +51,9 @@ public class Client implements Runnable {
                 clientData = clientname + " : "+clientData;
             else if (condition.contains("notice")){
                 clientData = "==> "+clientData;
+                fileWriter = new FileWriter(file,  true);
+                fileWriter.append(clientData);
+                fileWriter.close();
                 System.out.println("Here" + clientData);
             }
 
@@ -101,8 +103,13 @@ public class Client implements Runnable {
                 clientData = reader.readLine()+"\n";
                 if (condition.contains("AllMsg") || condition.contains("chat"))
                     clientData = clientname + " : "+clientData;
-                else if (condition.contains("notice"))
+                else if (condition.contains("notice")){
                     clientData = "==> "+clientData;
+                    fileWriter = new FileWriter(file, true);
+                    fileWriter.append(clientData);
+                    fileWriter.close();
+                }
+
             }
 
 
