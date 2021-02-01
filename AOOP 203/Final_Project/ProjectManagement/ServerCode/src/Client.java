@@ -31,43 +31,43 @@ public class Client implements Runnable {
 
         String clientData = null;
         String condition = null;
+
         try {
 
             condition = reader.readLine()+"\n";
-            System.out.println(condition);
 
             System.out.println((new File("Data.txt")).exists());
             File file = new File("Data.txt");
             File file1 = new File("Data1.txt");
             File file2 = new File("Data2.txt");
             File file3 = new File("Data3.txt");
+
             FileWriter fileWriter;
-
-
-
-            System.out.println("Writing done");
-
 
             clientData = reader.readLine()+"\n";
 
             if (condition.contains("AllMsg")|| condition.contains("chat"))
                 clientData = clientname + " : "+clientData;
+
             else if (condition.contains("notice")){
                 clientData = "==> "+clientData;
                 fileWriter = new FileWriter(file,  true);
                 fileWriter.append(clientData);
                 fileWriter.close();
             }
+
             else if (condition.contains("assign1")){
                 fileWriter = new FileWriter(file1, true);
                 fileWriter.append(clientData);
                 fileWriter.close();
             }
+
             else if (condition.contains("assign2")){
                 fileWriter = new FileWriter(file2, true);
                 fileWriter.append(clientData);
                 fileWriter.close();
             }
+
             else if (condition.contains("assign3")){
                 fileWriter = new FileWriter(file3, true);
                 fileWriter.append(clientData);
@@ -167,26 +167,32 @@ public class Client implements Runnable {
                         client.writer.flush();
                     }
                 }
+
                 condition = reader.readLine()+"\n";
                 clientData = reader.readLine()+"\n";
+
                 if (condition.contains("AllMsg") || condition.contains("chat"))
                     clientData = clientname + " : "+clientData;
+
                 else if (condition.contains("notice")){
                     clientData = "==> "+clientData;
                     fileWriter = new FileWriter(file,  true);
                     fileWriter.append(clientData);
                     fileWriter.close();
                 }
+
                 else if (condition.contains("assign1")){
                     fileWriter = new FileWriter(file1, true);
                     fileWriter.append(clientData);
                     fileWriter.close();
                 }
+
                 else if (condition.contains("assign2")){
                     fileWriter = new FileWriter(file2, true);
                     fileWriter.append(clientData);
                     fileWriter.close();
                 }
+
                 else if (condition.contains("assign3")){
                     fileWriter = new FileWriter(file3, true);
                     fileWriter.append(clientData);
