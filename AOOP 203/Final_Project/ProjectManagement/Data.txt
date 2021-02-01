@@ -1,3 +1,2 @@
 ==> Hello there
-==> wtf
-==> Hello there
+==> Hello World
