@@ -1,3 +1,5 @@
 ==> Hello There
 ==> Hi again
 ==> Cool
+==> Gello
+==> Hello*

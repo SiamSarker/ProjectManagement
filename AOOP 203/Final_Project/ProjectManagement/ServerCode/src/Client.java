@@ -38,6 +38,9 @@ public class Client implements Runnable {
 
             System.out.println((new File("Data.txt")).exists());
             File file = new File("Data.txt");
+            File file1 = new File("Data1.txt");
+            File file2 = new File("Data2.txt");
+            File file3 = new File("Data3.txt");
             FileWriter fileWriter;
 
 
@@ -51,10 +54,6 @@ public class Client implements Runnable {
                 clientData = clientname + " : "+clientData;
             else if (condition.contains("notice")){
                 clientData = "==> "+clientData;
-                fileWriter = new FileWriter(file,  true);
-                fileWriter.append(clientData);
-                fileWriter.close();
-                System.out.println("Here" + clientData);
             }
 
             while (clientData != null) {
@@ -65,20 +64,31 @@ public class Client implements Runnable {
                             client.writer.flush();
                         }
                         else if (condition.contains("notice")){
-
+                            fileWriter = new FileWriter(file,  true);
+                            fileWriter.append(clientData);
+                            fileWriter.close();
                             client.writer.write("notice\n");
                             client.writer.flush();
 
                         }
                         else if (condition.contains("assign1")){
+                            fileWriter = new FileWriter(file1, true);
+                            fileWriter.append(clientData);
+                            fileWriter.close();
                             client.writer.write("assign1\n");
                             client.writer.flush();
                         }
                         else if (condition.contains("assign2")){
+                            fileWriter = new FileWriter(file2, true);
+                            fileWriter.append(clientData);
+                            fileWriter.close();
                             client.writer.write("assign2\n");
                             client.writer.flush();
                         }
                         else if (condition.contains("assign3")){
+                            fileWriter = new FileWriter(file3, true);
+                            fileWriter.append(clientData);
+                            fileWriter.close();
                             client.writer.write("assign3\n");
                             client.writer.flush();
                         }
@@ -105,9 +115,6 @@ public class Client implements Runnable {
                     clientData = clientname + " : "+clientData;
                 else if (condition.contains("notice")){
                     clientData = "==> "+clientData;
-                    fileWriter = new FileWriter(file, true);
-                    fileWriter.append(clientData);
-                    fileWriter.close();
                 }
 
             }
