@@ -135,7 +135,6 @@ public class Controller {
         t.start();
     }
 
-    // done initializing reader writer with
 
     @FXML
     void msgSend() throws IOException {
