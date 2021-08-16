@@ -1,2 +1,0 @@
-task 2
-[Running] task 2

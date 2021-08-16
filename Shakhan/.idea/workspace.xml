@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0422381-3f5f-4eaf-b2bd-3a5c8b85491b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Shakhan/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shakhan/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shakhan/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shakhan/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="439905f3-6ae5-447f-8e76-a80c8ea3f074" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AOOP 203/ArrayList/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AOOP 203/ArrayList/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AOOP 203/ArrayList/.idea/vcs.xml" beforeDir="false" />
@@ -813,7 +814,7 @@
       <change beforePath="$PROJECT_DIR$/../AOOP 203/javafx-sdk-11.0.2/lib/libprism_sw.dylib" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AOOP 203/javafx-sdk-11.0.2/lib/src.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AOOP 203/openjfx-11.0.2_osx-x64_bin-sdk.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GUI/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -833,53 +834,70 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1tAy0PIGuzGv23croMg3VU2d8Pf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1woYGzDddFYkcapm13bcis80yV8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration name="run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="run" />
+      <module name="Shakhan" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.run" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d0422381-3f5f-4eaf-b2bd-3a5c8b85491b" name="Default Changelist" comment="" />
-      <created>1622225965046</created>
+      <changelist id="439905f3-6ae5-447f-8e76-a80c8ea3f074" name="Default Changelist" comment="" />
+      <created>1629126316993</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1622225965046</updated>
-      <workItem from="1622225966660" duration="1175000" />
-      <workItem from="1628784248336" duration="775000" />
-      <workItem from="1629126195794" duration="233000" />
+      <updated>1629126316993</updated>
+      <workItem from="1629126318326" duration="3000" />
+      <workItem from="1629126426831" duration="997000" />
+      <workItem from="1629127499254" duration="2295000" />
     </task>
-    <task id="LOCAL-00001" summary="java GUI">
-      <created>1622227183327</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1622227183327</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="java GUI" />
-    <option name="LAST_COMMIT_MESSAGE" value="java GUI" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
