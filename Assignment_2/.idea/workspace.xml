@@ -56,7 +56,11 @@
       <option name="presentableId" value="Default" />
       <updated>1589285307738</updated>
       <workItem from="1589285310405" duration="7118000" />
-      <workItem from="1589460555087" duration="596000" />
+      <workItem from="1589460555087" duration="742000" />
+      <workItem from="1589795577838" duration="11000" />
+      <workItem from="1589795614381" duration="161000" />
+      <workItem from="1589862838797" duration="599000" />
+      <workItem from="1591115019899" duration="61000" />
     </task>
     <servers />
   </component>
@@ -100,10 +104,10 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1398" height="258" key="GridCell.Tab.1.right/0.23.1440.808@0.23.1440.808" timestamp="1589296638439" />
-    <state x="399" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1589462076287">
+    <state x="399" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1589862839082">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
-    <state x="399" y="259" key="com.intellij.ide.util.TipDialog/0.23.1440.808@0.23.1440.808" timestamp="1589462076287" />
+    <state x="399" y="259" key="com.intellij.ide.util.TipDialog/0.23.1440.808@0.23.1440.808" timestamp="1589862839082" />
     <state x="385" y="155" key="search.everywhere.popup" timestamp="1589291340631">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
