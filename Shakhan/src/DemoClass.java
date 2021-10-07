@@ -21,4 +21,7 @@ public class DemoClass {
                 calculateArea(5.0);
     }
 
+    private void calculateArea(double v) {
+    }
+
 }
