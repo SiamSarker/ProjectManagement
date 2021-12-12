@@ -9,7 +9,7 @@ public class DemoClass {
     }
 
     void displayInner(double radius){
-        InnerClass n = new InnerClass(radius);
+        InnerClass n = new InnerClass();
     }
 
 

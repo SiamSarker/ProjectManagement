@@ -2,7 +2,7 @@
 //package OopLabAssignment.Qs3;
 
         import java.util.Scanner;
-class Employee {
+class Employee2 {
     private String name;
     private double salary;
     private String id;
@@ -12,13 +12,13 @@ class Employee {
     private double commissionPerProductSold;
     private int numberOfProduct;
 
-    Employee(String name, double salary, String id){
+    Employee2(String name, double salary, String id){
         this.name = name;
         this.salary = salary;
         this.id = id;
     }
 
-    public Employee(String name, String id, double salaryPerHour,int numOfHourWorked) {
+    public Employee2(String name, String id, double salaryPerHour, int numOfHourWorked) {
         this.name = name;
         this.id = id;
         this.salaryPerHour = salaryPerHour;
@@ -111,7 +111,7 @@ class Employee {
 
 }
 
-class Salaried extends Employee {
+class Salaried extends Employee2 {
     Salaried(String name, double monthlySalary, String id){
         super(name,monthlySalary,id);
     }
@@ -124,7 +124,7 @@ class Salaried extends Employee {
 
 }
 
-class HourlySalaried extends Employee {
+class HourlySalaried extends Employee2 {
 
     HourlySalaried(String name, String id,double salaryPerHour, int numOfHourWorked){
         super(name, id, salaryPerHour, numOfHourWorked);
@@ -140,7 +140,7 @@ class HourlySalaried extends Employee {
 
 }
 
-class Commissioned extends Employee {
+class Commissioned extends Employee2 {
     Commissioned(String name, double baseSalary, double commissionPerProductSold, int numberOfProduct, String id){
         super(name,baseSalary+commissionPerProductSold*numberOfProduct,id);
     }
@@ -157,7 +157,7 @@ class Commissioned extends Employee {
 class run{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        Employee[] employees = new Employee[1000];
+        Employee2[] employees = new Employee2[1000];
         employees[0] = new Salaried("Siam",20000,"011551");
         employees[1] = new HourlySalaried("Roni","011552",300,30);
         employees[2] = new Commissioned("Rifat",10000,150,50,"011553");
