@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d475bd5-bf0a-41c1-a788-218141da7256" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shakhan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Shakhan/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop lab 202/Icon&#10;" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,16 +53,11 @@
       <workItem from="1631428352585" duration="631000" />
       <workItem from="1632992102964" duration="3000" />
       <workItem from="1633593457961" duration="60000" />
+      <workItem from="1640054646422" duration="62000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="499" y="113" key="com.intellij.ide.util.TipDialog" timestamp="1595061482640">
-      <screen x="0" y="23" width="1440" height="806" />
-    </state>
-    <state x="499" y="113" key="com.intellij.ide.util.TipDialog/0.23.1440.806@0.23.1440.806" timestamp="1595061482640" />
   </component>
 </project>
