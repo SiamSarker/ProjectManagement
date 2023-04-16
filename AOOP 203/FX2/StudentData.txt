@@ -1,6 +1,0 @@
-3.2 34 Siam
-3.4 23 Arif
-3.86 35 Anas
-3.01 23 Antik
-3.43 39 Foyez
-3.1 23 Person
